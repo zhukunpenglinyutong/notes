@@ -1,6 +1,6 @@
 ---
 name: BUG反馈
-about: 创建此问题，以帮助我们改进
+about: 给我们提交您使用时候的BUG，我们会立刻改进，以给您更好的体验
 title: ''
 labels: ''
 assignees: ''
