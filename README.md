@@ -3,6 +3,9 @@
 [![License](https://img.shields.io/github/license/zhukunpenglinyutong/notes.svg)](LICENSE)
 [![repo-size](https://img.shields.io/github/repo-size/zhukunpenglinyutong/notes.svg)](repo-size)
 [![downloads](https://img.shields.io/github/downloads/zhukunpenglinyutong/notes/total.svg)](downloads)
+[![贡献者](https://img.shields.io/github/contributors/zhukunpenglinyutong/notes.svg)](贡献者)
+[![提交活动](https://img.shields.io/github/commit-activity/m/zhukunpenglinyutong/notes.svg)](最后一次提交)
+[![贡献者](https://img.shields.io/github/last-commit/zhukunpenglinyutong/notes.svg)](最后一次提交)
 
 <img src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1559637808&di=b2b7de8007a8e1c5e3ea07f3b2ae0192&src=http://5b0988e595225.cdn.sohucs.com/images/20171230/a540bdf43bdc49828f40a8a0e50ae762.jpeg" />
 
