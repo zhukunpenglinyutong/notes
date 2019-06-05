@@ -1,6 +1,5 @@
 # 知识如果不记录，就会流失90%
 
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![License](https://img.shields.io/github/license/zhukunpenglinyutong/notes.svg)](LICENSE)
 [![repo-size](https://img.shields.io/github/repo-size/zhukunpenglinyutong/notes.svg)](repo-size)
 [![CodeTriage](https://www.codetriage.com/zhukunpenglinyutong/notes/badges/users.svg)](CodeTriage)
