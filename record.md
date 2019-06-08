@@ -14,6 +14,9 @@
 - 【内容增加】增加 2.css速查/flex布局
 - 🔥🔥🔥，增加中间层node，根据规则生成VuePress配置，解放80%生产力，为CI/CD打下了基础
 
+<img src="https://itzkp-1253302184.cos.ap-beijing.myqcloud.com/github%E5%9B%BE%E7%89%87/notes/7.png" />
+<img src="https://itzkp-1253302184.cos.ap-beijing.myqcloud.com/github%E5%9B%BE%E7%89%87/notes/8.png" />
+
 ---
 
 ### 2019.6.7 🌞
