@@ -2,6 +2,13 @@
 
 - 🔥文件夹名称改变：1.速查 ---> 1.quickcheck &&  2.笔记 ---> 2.note
 - 🦃【规则限定】规则限定：文件夹目录层级最多一级，超过一级的要是文件（为VuePress渲染规则做准备）
+- 🐢 归档v0.1
+<img src="https://itzkp-1253302184.cos.ap-beijing.myqcloud.com/github%E5%9B%BE%E7%89%87/notes/6.png" />
+
+---
+
+- 【内容增加】增加 2.css速查/flex布局
+- 
 
 
 ---
