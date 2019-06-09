@@ -12,7 +12,7 @@
 
 # 更佳体验
 
-要想获得更佳体验，请访问 [notes.itzkp.com](http://notes.itzkp.com)
+要想获得更佳体验，请访问 [notes.itzkp.com](https://notes.itzkp.com)
 
 ---
 
