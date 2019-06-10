@@ -1,18 +1,28 @@
 ## 更新......
 
-### 2019.6.10（）🌞
+### 2019.6.10（更新大量方法和内容）🌞
 
+- 🚪【文件增加】1.quickcheck/...5.构建工具速查.md（未完成）
+- 🚪【文件增加】1.quickcheck/...6.Jest测试速查.md（未完成）
+- 🚪【文件增加】1.quickcheck/...8.常用网址.md（未完成）
+- 🚪【文件增加】2.note/...得到APP课程《宁向东的清华管理学课程》.md（未完成）
 
+---
+
+- 🔥【方法增加】1.quickcheck/...3.JS方法速查.md
+  - 数组-数组去重（+2）
+  - 数组-数组过滤（+1）
+  - 对象-判断对象是否为空对象（+1）
 
 ---
 
 ### 2019.6.9（申请配置ssl证书） 🌞
 
-- 🔥【文件夹名称改变】2.note/4.Typrcript ---> 2.note/4.学习笔记/Typescript.md
 - 【内容增加】2.note/0.项目方向指南/v0.3方向指南
 - 【内容增加】2.note/2.每日收获/2019.6.8.md
-- 🚪【文件增加】1.速查/...5.Linux速查.md
-- 🚪【文件增加】1.速查/...2.MySQL速查.md
+- 🔥【文件夹名称改变】2.note/4.Typrcript ---> 2.note/4.学习笔记/Typescript.md
+- 🚪【文件增加】1.quickcheck/...5.Linux速查.md
+- 🚪【文件增加】1.quickcheck/...2.MySQL速查.md
 - 🔥【增加ssl】增加了网站ssl证书
 
 <img src="https://itzkp-1253302184.cos.ap-beijing.myqcloud.com/github%E5%9B%BE%E7%89%87/notes/11.png" />
@@ -21,7 +31,7 @@
 
 ### 2019.6.8（VuePress规则探索 && Node中间程序） 🌞
 
-- 🔥【文件夹名称改变】1.速查 ---> 1.quickcheck &&  2.笔记 ---> 2.note
+- 🔥【文件夹名称改变】1.quickcheck ---> 1.quickcheck &&  2.笔记 ---> 2.note
 - 🦃【规则限定】规则限定：文件夹目录层级最多一级，超过一级的要是文件（为VuePress渲染规则做准备）
 - 🐢 归档v0.1
 <img src="https://itzkp-1253302184.cos.ap-beijing.myqcloud.com/github%E5%9B%BE%E7%89%87/notes/6.png" />
