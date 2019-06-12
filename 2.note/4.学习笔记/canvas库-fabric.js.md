@@ -52,9 +52,13 @@ ctx.fillRect(-10, -10, 20, 20);
 angle: 45
 ```
 
+---
+
 使用：引入cdn
 
+```html
 <script src="http://cdnjs.cloudflare.com/ajax/libs/fabric.js/2.4.6/fabric.min.js"></script>
+```
 
 ---
 
