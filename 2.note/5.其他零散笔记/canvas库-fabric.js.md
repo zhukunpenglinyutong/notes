@@ -10,7 +10,7 @@
 
 - 引用作者做 fabric 的初衷
 
-<img src="https://itzkp-1253302184.cos.ap-beijing.myqcloud.com/github%E5%9B%BE%E7%89%87/notes/2.note/5.%E5%85%B6%E4%BB%96%E9%9B%B6%E6%95%A3%E7%AC%94%E8%AE%B0/1.png" />
+<img src="https://itzkp-1253302184.cos.ap-beijing.myqcloud.com/notes/2.note/5.%E5%85%B6%E4%BB%96%E9%9B%B6%E6%95%A3%E7%AC%94%E8%AE%B0/1.png" />
 
 我目前觉得做一个静态文件需要逐帧进行，或者知道最后的效果，然后中间是过度循环阶段，这些都需要的大量的操作和思考进行，我觉得fabric解决的问题就是，让我们专注思考，不关注怎么具体产生，解放生产力
 
