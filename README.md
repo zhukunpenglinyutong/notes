@@ -26,4 +26,8 @@
 
 主要放着项目规划，每日记录，还有一些知识笔记
 
+### 3.项目更新日志
+
+[查看更新日志](https://github.com/zhukunpenglinyutong/notes/blob/master/record.md)
+
 ---
