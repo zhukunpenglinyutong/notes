@@ -54,7 +54,7 @@
 - 🚪【文件增加】1.quickcheck/...2.MySQL速查
 - 🔥【增加ssl】增加了网站ssl证书
 
-<img src="https://itzkp-1253302184.cos.ap-beijing.myqcloud.com/github%E5%9B%BE%E7%89%87/notes/11.png" />
+<img src="https://itzkp-1253302184.cos.ap-beijing.myqcloud.com/github%E5%9B%BE%E7%89%87/notes/1.quickcheck/3.%E8%BF%90%E7%BB%B4/1.png" />
 
 ---
 
@@ -63,15 +63,12 @@
 - 🔥【文件夹名称改变】1.quickcheck ---> 1.quickcheck &&  2.笔记 ---> 2.note
 - 🐢【规则限定】规则限定：文件夹目录层级最多一级，超过一级的要是文件（为VuePress渲染规则做准备）
 - 🔥 归档v0.1
-<img src="https://itzkp-1253302184.cos.ap-beijing.myqcloud.com/github%E5%9B%BE%E7%89%87/notes/6.png" />
+<img src="https://itzkp-1253302184.cos.ap-beijing.myqcloud.com/github%E5%9B%BE%E7%89%87/notes/%E5%85%B6%E4%BB%96/2.png" />
 
 ---
 
 - 【内容增加】增加 2.css速查/flex布局
 - 🔥🔥🔥，增加中间层node，根据规则生成VuePress配置，解放80%生产力，为CI/CD打下了基础
-
-<img src="https://itzkp-1253302184.cos.ap-beijing.myqcloud.com/github%E5%9B%BE%E7%89%87/notes/7.png" />
-<img src="https://itzkp-1253302184.cos.ap-beijing.myqcloud.com/github%E5%9B%BE%E7%89%87/notes/8.png" />
 
 ---
 
