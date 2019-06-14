@@ -31,3 +31,7 @@
 [查看更新日志](https://github.com/zhukunpenglinyutong/notes/blob/master/record.md)
 
 ---
+
+# 致谢
+
+致谢所有 star 和 关注我的 朋友们，多谢你们的鼓励和支持 🦀🦀🦀 ，维护一个项目是一个长跑 🏃，这比的是谁能够坚持下去，多谢各位的行动给我的鼓励，我会继续加油的，以掘金阴明为第一个偶像，向偶像看齐!!!
