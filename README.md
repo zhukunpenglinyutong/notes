@@ -36,14 +36,16 @@
 
 **环境依赖：node**
 
-[node官方下载](https://nodejs.org/en/download/)
-[notes.itzkp.com node安装教程（更快速的安装 Centos系统下）](https://notes.itzkp.com/1.quickcheck/3.%E8%BF%90%E7%BB%B4/1.Centos%E4%B8%8B%E5%AE%89%E8%A3%85%E5%90%84%E7%A7%8D%E8%BD%AF%E4%BB%B6.html#_1-%E5%AE%89%E8%A3%85nodejs)
+- [node官方下载](https://nodejs.org/en/download/)
+- [notes.itzkp.com node安装教程（更快速的安装 Centos系统下）](https://notes.itzkp.com/1.quickcheck/3.%E8%BF%90%E7%BB%B4/1.Centos%E4%B8%8B%E5%AE%89%E8%A3%85%E5%90%84%E7%A7%8D%E8%BD%AF%E4%BB%B6.html#_1-%E5%AE%89%E8%A3%85nodejs)
 
-- npm install
-- npm run dev（预览，VuePress会启动一个预览的网址）
-- npm run build（打包，打包后资源在 docs/.vuepress/dist下）
+```sh
+npm install
+npm run dev（预览，VuePress会启动一个预览的网址）
+npm run build（打包，打包后资源在 docs/.vuepress/dist下）
+```
 
-**构建原理说明：**根据app.js 书写匹配规则和进行目录调整，达到VuePress能够识别的程度
+**构建原理说明**：根据app.js 书写匹配规则和进行目录调整，达到VuePress能够识别的程度
 
 ---
 
