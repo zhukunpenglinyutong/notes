@@ -59,9 +59,34 @@ npm run build（打包，打包后资源在 docs/.vuepress/dist下）
 
 ### 2.网站CI/CD实现（基础版）
 
+**因为Jenkins用的比较浅，所以用sh的方式进行操作**
+
+```js
+
+npm install
+
+npm run build
+
+rm -rf /notes/dist
+
+cp -r ./docs/.vuepress/dist/ /notes/
+
+```
+
 **环境依赖：Jenkins**
 
-更新中......
+[notes.itzkp.com 安装Jenkins教程](https://notes.itzkp.com/1.quickcheck/3.%E8%BF%90%E7%BB%B4/1.Centos%E4%B8%8B%E5%AE%89%E8%A3%85%E5%90%84%E7%A7%8D%E8%BD%AF%E4%BB%B6.html#_7-yapi%E5%AE%89%E8%A3%85)
+
+
+**GitHub pull触发自动构建实现**
+
+[资料网址](https://www.cnblogs.com/weschen/p/6867885.html)
+
+**拓展（未完成）**
+
+- 构建完成之后邮箱提醒
+- 构建错误的补救
+
 
 ---
 
