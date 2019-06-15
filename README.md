@@ -32,7 +32,9 @@
 
 ---
 
-# 构建过程（基础版）
+# notes.itzkp.com 构建
+
+### 1.网站构建过程（基础版）
 
 **环境依赖：node**
 
@@ -49,7 +51,7 @@ npm run build（打包，打包后资源在 docs/.vuepress/dist下）
 
 ---
 
-# CI/CD实现（基础版）
+### 2.网站CI/CD实现（基础版）
 
 **环境依赖：Jenkins**
 
