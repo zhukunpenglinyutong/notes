@@ -75,7 +75,7 @@ cp -r ./docs/.vuepress/dist/ /notes/
 
 **环境依赖：Jenkins**
 
-[notes.itzkp.com 安装Jenkins教程](https://notes.itzkp.com/1.quickcheck/3.%E8%BF%90%E7%BB%B4/1.Centos%E4%B8%8B%E5%AE%89%E8%A3%85%E5%90%84%E7%A7%8D%E8%BD%AF%E4%BB%B6.html#_7-yapi%E5%AE%89%E8%A3%85)
+[notes.itzkp.com 安装Jenkins教程](https://notes.itzkp.com/1.quickcheck/3.%E8%BF%90%E7%BB%B4/1.Centos%E4%B8%8B%E5%AE%89%E8%A3%85%E5%90%84%E7%A7%8D%E8%BD%AF%E4%BB%B6.html#%E5%AE%89%E8%A3%85-jenkins)
 
 
 **GitHub pull触发自动构建实现**
@@ -88,6 +88,12 @@ cp -r ./docs/.vuepress/dist/ /notes/
 
 - 构建完成之后邮箱提醒
 - 构建错误的补救
+
+---
+
+**网站详细构建过程**
+
+[朱昆鹏的掘金文章....书写中](https://juejin.im/post/5d03cee16fb9a07ea33c12d7)
 
 ---
 
