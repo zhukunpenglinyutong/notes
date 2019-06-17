@@ -59,20 +59,6 @@ npm run build（打包，打包后资源在 docs/.vuepress/dist下）
 
 ### 2.网站CI/CD实现（基础版）
 
-**因为Jenkins用的比较浅，所以用sh的方式进行操作**
-
-```js
-
-npm install
-
-npm run build
-
-rm -rf /notes/dist
-
-cp -r ./docs/.vuepress/dist/ /notes/
-
-```
-
 **环境依赖：Jenkins**
 
 [notes.itzkp.com 安装Jenkins教程](https://notes.itzkp.com/1.quickcheck/3.%E8%BF%90%E7%BB%B4/1.Centos%E4%B8%8B%E5%AE%89%E8%A3%85%E5%90%84%E7%A7%8D%E8%BD%AF%E4%BB%B6.html#%E5%AE%89%E8%A3%85-jenkins)
@@ -81,6 +67,16 @@ cp -r ./docs/.vuepress/dist/ /notes/
 **GitHub pull触发自动构建实现**
 
 [资料网址](https://www.cnblogs.com/weschen/p/6867885.html)
+
+**因为Jenkins用的比较浅，所以用shell的方式进行Jenkins的操作**
+
+```js
+// notes-job 执行的 shell 脚本内容示例
+npm install
+npm run build
+rm -rf /notes/dist
+cp -r ./docs/.vuepress/dist/ /notes/
+```
 
 ---
 
@@ -94,6 +90,16 @@ cp -r ./docs/.vuepress/dist/ /notes/
 **网站详细构建过程**
 
 [朱昆鹏的掘金文章....书写中](https://juejin.im/post/5d03cee16fb9a07ea33c12d7)
+
+---
+
+# 不足与指教
+
+因为入行的时间太短（2019.6.20日大学毕业），所以项目会有很多地方不完善。各位前行者，大佬们，如果看出这个项目有的地方可以完善，或者有的地方不好，我拜求各位的指点，我会以很快的速度验证，然后更改的。我会时刻以谦逊姿态请教学习，高调的热情创造宣传，我期待各位大佬们能指出我的不足，我定会虚心请教，牢记恩情。（很多思想不是我不用，是我不知道，所以拜求指教）
+
+**个人微信，拜求指点，不胜感激**
+
+<img src="https://itzkp-1253302184.cos.ap-beijing.myqcloud.com/notes/%E5%85%B6%E4%BB%96/3.png">
 
 ---
 
