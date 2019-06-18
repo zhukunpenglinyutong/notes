@@ -18,6 +18,9 @@
 
 # 项目说明 📚
 
+### 🔥项目核心思想说明（推荐阅读）
+
+
 ### 1.quickcheck（速查）
 
 放着系统性的知识笔记系统，熟悉内容之后，可以快速查阅内容，方便的很
@@ -26,7 +29,7 @@
 
 主要放着项目规划，每日记录，还有一些知识笔记
 
-### 3.项目更新日志
+### 4.项目更新日志
 
 [查看更新日志](https://github.com/zhukunpenglinyutong/notes/blob/master/record.md)
 
@@ -51,9 +54,8 @@ npm run build（打包，打包后资源在 docs/.vuepress/dist下）
 **构建原理说明**：根据app.js 书写匹配规则和进行目录调整，达到VuePress能够识别的程度
 
 **环境依赖：node**
-- [node官方下载](https://nodejs.org/en/download/)
 - [notes.itzkp.com node安装教程（更快速的安装 Centos系统下）](https://notes.itzkp.com/1.quickcheck/3.%E8%BF%90%E7%BB%B4/1.Centos%E4%B8%8B%E5%AE%89%E8%A3%85%E5%90%84%E7%A7%8D%E8%BD%AF%E4%BB%B6.html#_1-%E5%AE%89%E8%A3%85nodejs)
-
+- [node官方下载](https://nodejs.org/en/download/)
 
 ---
 
@@ -61,7 +63,7 @@ npm run build（打包，打包后资源在 docs/.vuepress/dist下）
 
 **环境依赖：Jenkins**
 
-[notes.itzkp.com 安装Jenkins教程](https://notes.itzkp.com/1.quickcheck/3.%E8%BF%90%E7%BB%B4/1.Centos%E4%B8%8B%E5%AE%89%E8%A3%85%E5%90%84%E7%A7%8D%E8%BD%AF%E4%BB%B6.html#%E5%AE%89%E8%A3%85-jenkins)
+[notes.itzkp.com 安装Jenkins教程](https://notes.itzkp.com/1.quickcheck/3.%E8%BF%90%E7%BB%B4/1.Centos%E4%B8%8B%E5%AE%89%E8%A3%85%E5%90%84%E7%A7%8D%E8%BD%AF%E4%BB%B6.html#_7-%E5%AE%89%E8%A3%85-jenkins)
 
 
 **GitHub pull触发自动构建实现**
