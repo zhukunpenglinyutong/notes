@@ -86,7 +86,7 @@ cp -r ./docs/.vuepress/dist/ /notes/
 
 **网站的意义**
 
-[notes.itzkp.com对于我的意义...待完善]()
+[notes.itzkp.com对于我的意义...待完善](https://notes.itzkp.com/2.note/4.%E5%85%B6%E4%BB%96%E9%9B%B6%E6%95%A3%E7%AC%94%E8%AE%B0/notes.itzkp.com%E5%AF%B9%E4%BA%8E%E6%88%91%E7%9A%84%E6%84%8F%E4%B9%89.html)
 
 **以后的规划**
 
