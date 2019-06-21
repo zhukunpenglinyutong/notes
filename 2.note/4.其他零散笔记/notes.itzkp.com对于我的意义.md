@@ -16,6 +16,7 @@
 - 2019.6.9 申请SSL证书，让网站访问是 https(443端口) [资料](https://notes.itzkp.com/1.quickcheck/3.%E8%BF%90%E7%BB%B4/6.%E5%85%B6%E4%BB%96.html#_1-http%E5%8D%8F%E8%AE%AE-%E5%8F%98-https%EF%BC%88%E7%94%B3%E8%AF%B7%E9%85%8D%E7%BD%AEssl%E8%AF%81%E4%B9%A6%EF%BC%89)
 - 2019.6.15 ssh免密登录 [资料](https://notes.itzkp.com/1.quickcheck/3.%E8%BF%90%E7%BB%B4/6.%E5%85%B6%E4%BB%96.html#_1-http%E5%8D%8F%E8%AE%AE-%E5%8F%98-https%EF%BC%88%E7%94%B3%E8%AF%B7%E9%85%8D%E7%BD%AEssl%E8%AF%81%E4%B9%A6%EF%BC%89)
 - 2019.6.16 应用上了 Jenkins 实现了简单的CI/CD [资料](https://notes.itzkp.com/2.note/0.%E9%A1%B9%E7%9B%AE%E6%96%B9%E5%90%91%E6%8C%87%E5%8D%97/v0.2%E6%96%B9%E5%90%91%E6%8C%87%E5%8D%97.html#ci-cd-%E5%85%B7%E4%BD%93%E7%BB%86%E8%8A%82%EF%BC%88%E7%AE%80%E6%98%93%E7%89%88%EF%BC%89)
+- 2019.6.21 应用了CDN，使网站访问速度从 10s+ 下降到 2s内，并且根据腾讯云后台数据可以看到访问量的一些详细信息
 - ......
 
 ---
