@@ -99,7 +99,26 @@
 
 ## 🔥第二章：用Koa 说 Hello World
 
-### 1.Koa简介 
+### 1.Koa简介
+
+- 一句话简介：基于Node.js的下一代web框架
+  - 基于Node.js：说明koa是一个Node.js模块
+  - 下一代：蚕食第一代Express市场
+  - web框架：不是命令行工具，不是算法
+- 官网详细介绍
+  - 由Experss幕后人原班人马打造
+  - Web应用和API开发领域
+  - 更小，更富有表现力，更健壮
+  - 利用async函数，丢弃回调函数
+  - 增强错误处理：try catch
+  - 没有捆绑任何中间件
+  - 快速而愉快的编写程序（画的一个大饼）
+
+<img src="https://itzkp-1253302184.cos.ap-beijing.myqcloud.com/notes/2.note/5.%E5%85%B6%E4%BB%96%E9%9B%B6%E6%95%A3%E7%AC%94%E8%AE%B0/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8BRESTful%20API/1.png" />
+
+---
+
+### 2.安装搭建第一个Koa程序
 
 ---
 
