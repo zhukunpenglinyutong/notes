@@ -6,8 +6,8 @@
 
 ### 1.REST是什么以及它的6个限制
 
-- **什么是REST？**REST是一种架构风格，用来创建网络服务
-- **为何叫REST？**英语全程是 Representational State Transfer
+- **什么是REST**：REST是一种架构风格，用来创建网络服务
+- **为何叫REST**：英语全称是 Representational State Transfer
   - Representational：数据表示形式，可以用很多种，一般用JSON
   - State：当前状态或者数据
   - Transfer：数据传输
@@ -36,11 +36,67 @@
   - 客户端可以下载运行服务端传过来代码（例如JS）
   - 减少一些功能，简化客户端
 
+---
+
+### 2.统一接口限制（接口需要统一成什么样子？）
+
+- 资源的标识
+  - 资源是任何可以命名的的事物，比如用户，评论等
+  - 每个资源通过URL被统一的标识（例如：https://api.github.com/users）
+- 通过表述来操作资源（这个我懂，我就是这样用的）
+  - 客户端不能直接操作（比如SQL）服务端资源
+  - 客户端应该通过表述（比如JSON）来操作资源
+- 自描述信息
+  - 每个消息（请求或者响应）必须踢狗足够的信息让接受者理解
+  - 例如：你可以需要传媒体类型（application/json,application/xml）
+  - 例如：你需要规定请求类型：GET,POST,DELETE
+  - 例如：响应是否被缓存：Cache-Control
+- 超媒体作为应用状态引擎（没懂）
+  - ...
+
+后记：GitHub api 有 v3，也就是 REST API,还有 v4 GraphQL api 学完v3可以看下v4
 
 ---
 
+### 3.RESTful API简介
 
+- 字面解释是：符合REST架构风格的API
+- RESTful API 具体长什么样子呢？
+  - 基本的URL，例如:https//api.github.com/users
+  - 标准HTTP方法，例如 GET,POST,PUT,PATCH,DELETE
+  - 传输的数据媒体类型，如JSON，XML
+- 现实举例
+  - GET /users | 获取user列表
+  - GET /users/12 | 查看某个具体的user
+  - POST /users | 创建一个user
+  - PUT /users/12 | 更新user为12的用户
+  - DELETE /users/12 | 删除user为12的用户
 
-## 📚参考列表（最后更新2019.6.23）
+---
+
+### 4.RESTful API设计最佳实践（规范化，对我很重要）🔥
+
+- 请求设计规范 ✅
+  - URL要使用名词，尽量用复数，如 /users
+  - URL使用嵌套表示关联关系，如 /users/12/repos/5
+  - 使用正确的HTTP方法，如 GET/POST/PUT/DELETE
+  - 不符合增删改查的情况下：POST/...
+- 响应设计规范 ✅
+  - 查询（每一个返回值都是可以被查询的，也就是我们加上返回条件，就能筛选我们想要的结果）
+  - 分页
+  - 字段过滤（完整的字段假如有十个，这个可以规定我想要的字段）
+  - 状态码
+  - 错误处理（如果错了，要规范化的返回错误信息）
+- 安全（这个也是有收获的）✅
+  - 使用HTTPS（使用HTTP容易被篡改，加上一些广告什么的，很烦）
+  - 鉴权（需要登录才能请求某些接口）
+  - 限流（防止某些坏人刻意占用接口）
+- 开发者优化
+  - 文档
+  - 超媒体
+
+---
+
+## 📚参考列表（最后更新2019.6.23 23:23）
 
 - [慕课网课程-Node.js开发仿知乎服务端 深入理解RESTful API](https://coding.imooc.com/learn/list/354.html)
