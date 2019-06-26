@@ -90,7 +90,7 @@ cp -r ./docs/.vuepress/dist/ /notes/
 
 **以后的规划**
 
-- [v0.3方向指南...待完善](https://notes.itzkp.com/2.note/0.%E9%A1%B9%E7%9B%AE%E6%96%B9%E5%90%91%E6%8C%87%E5%8D%97/v0.3%E6%96%B9%E5%90%91%E6%8C%87%E5%8D%971.html)
+- [v0.3方向指南](https://notes.itzkp.com/2.note/0.%E9%A1%B9%E7%9B%AE%E6%96%B9%E5%90%91%E6%8C%87%E5%8D%97/v0.3%E6%96%B9%E5%90%91%E6%8C%87%E5%8D%971.html)
 - [v0.4方向指南...待完善](https://notes.itzkp.com/2.note/0.%E9%A1%B9%E7%9B%AE%E6%96%B9%E5%90%91%E6%8C%87%E5%8D%97/v0.4%E6%96%B9%E5%90%91%E6%8C%87%E5%8D%97.html)
 
 **CI/CD 拓展（未完成）**
