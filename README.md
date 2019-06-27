@@ -88,16 +88,12 @@ cp -r ./docs/.vuepress/dist/ /notes/
 
 [notes.itzkp.com对于我的意义...待完善](https://notes.itzkp.com/2.note/4.%E5%85%B6%E4%BB%96%E9%9B%B6%E6%95%A3%E7%AC%94%E8%AE%B0/notes.itzkp.com%E5%AF%B9%E4%BA%8E%E6%88%91%E7%9A%84%E6%84%8F%E4%B9%89.html)
 
-**以后的规划**
+**速查笔记v0.3开发进展**
 
-- [v0.3方向指南](https://notes.itzkp.com/2.note/0.%E9%A1%B9%E7%9B%AE%E6%96%B9%E5%90%91%E6%8C%87%E5%8D%97/v0.3%E6%96%B9%E5%90%91%E6%8C%87%E5%8D%971.html)
-- [v0.4方向指南...待完善](https://notes.itzkp.com/2.note/0.%E9%A1%B9%E7%9B%AE%E6%96%B9%E5%90%91%E6%8C%87%E5%8D%97/v0.4%E6%96%B9%E5%90%91%E6%8C%87%E5%8D%97.html)
+<img src="https://itzkp-1253302184.cos.ap-beijing.myqcloud.com/notes/%E5%85%B6%E4%BB%96/README/1.png" />
 
-**CI/CD 拓展（未完成）**
+- [v0.3方向详细指南](https://notes.itzkp.com/2.note/0.%E9%A1%B9%E7%9B%AE%E6%96%B9%E5%90%91%E6%8C%87%E5%8D%97/v0.3%E6%96%B9%E5%90%91%E6%8C%87%E5%8D%971.html)
 
-- 构建完成之后邮箱提醒
-- 构建错误的补救
-- ......
 
 **网站详细构建过程**
 
