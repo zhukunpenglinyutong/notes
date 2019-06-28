@@ -523,6 +523,168 @@ module.exports = new UsersCtl()
 
 ---
 
+## 🎋第七章：JWT在Koa框架中实现用户的认证与授权
+
+### 1.session简介
+
+- session是一种非常重要，常见的，用户认证与授权
+
+**session工作原理**
+
+- 先登录，然后后端返回一个session id，然后前端再请求非登录的一些信息的时候都需要带上这个，否者报错
+
+<img src="https://itzkp-1253302184.cos.ap-beijing.myqcloud.com/notes/2.note/5.%E5%85%B6%E4%BB%96%E9%9B%B6%E6%95%A3%E7%AC%94%E8%AE%B0/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8BRESTful%20API/3.png" />
+
+- session的优势
+  - 相比 JWT，最大的优势就在于可以主动清除session
+  - session保存在服务器端，相对较为安全
+  - 结合 cookie 使用，较为灵活，兼容性较好
+- session的劣势
+  - cookie + session 在跨域场景下表现并不好
+  - 如果是分布式部署，需要做多机共享session机制 🔥
+  - 基于cookie的机制很容易被CSRF
+  - 查询 session 信息可能会有数据库查询操作
+- session相关概念介绍
+  - 主要放到服务器端，相对于安全
+  - cookie 主要放到客户端，并不是很安全
+  - sessionStronge：仅在当前会话下有效，关闭页面或者浏览器后被清除
+  - localstorage：除非被清除，否者永久保存
+
+
+---
+
+### 2.JWT简介
+
+- 什么是JWT？（JSON Web Token 是一个开放标准（RFC 7519））
+- 定义了一种紧凑且独立的方式，可以将各方之间的信息作为JSON对象进行安全传输
+- 该信息可以验证和信任，因为是经过数字签名的
+- JWT的构成：头部（Header）, 有效载荷（Payload）,签名（Signature）
+
+<img src="https://itzkp-1253302184.cos.ap-beijing.myqcloud.com/notes/2.note/5.%E5%85%B6%E4%BB%96%E9%9B%B6%E6%95%A3%E7%AC%94%E8%AE%B0/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8BRESTful%20API/4.png" />
+
+**有效载荷介绍（这个挺重要的）**
+
+<img src="https://itzkp-1253302184.cos.ap-beijing.myqcloud.com/notes/2.note/5.%E5%85%B6%E4%BB%96%E9%9B%B6%E6%95%A3%E7%AC%94%E8%AE%B0/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8BRESTful%20API/5.png" />
+
+
+**JWT原理**
+
+<img src="https://itzkp-1253302184.cos.ap-beijing.myqcloud.com/notes/2.note/5.%E5%85%B6%E4%BB%96%E9%9B%B6%E6%95%A3%E7%AC%94%E8%AE%B0/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8BRESTful%20API/6.png" />
+
+---
+
+### 3. JWT vs session
+
+- 可拓展性
+  - session 一般都是存到 redis 这种数据库中，你可以需要做一个中心式的session存储系统才行，否则没办法共享
+  - 基于 token 基于 令牌的这种方式是无状态的，我们可以轻松的拓展（听着怎么感觉这个很溜 🔥）
+- 安全性（...讲了四个，有空看下吧）
+- RESTful API（要求是无状态的，这就用JWT）
+- 性能（各有利弊）
+  - JWT可能性能不好，因为 session 更小
+  - session 毕竟放到客户端的是一段 id，传到服务器端，服务器端还要根据这个id拿真正的 session 数据，也是有性能消耗的
+- 时效性
+  - JWT 必须等到过期才更新，不能主动销毁
+  - session 可以主动销毁
+
+---
+
+### 4.在 Node.js 中使用 JWT
+
+- 安装：npm i jsonwebtoken
+- 签名：
+- 逆向验证：
+
+```js
+const jwt = require('jsonwebtoken');
+
+// 签名（参数一，就是传过来的参数，参数二 是秘钥）
+token = jwt.sign({name: 'zhu'}, 'test')
+// 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiemh1IiwiaWF0IjoxNTYxNzI0NTUzfQ.-JVehTSs3neUbRzF__9lTsXEul_rvA5WYNbpx702Eo4'
+
+// 验证（参数一，前端传过来的token，参数二 秘钥）
+jwt.verify(token, 'test')
+```
+
+---
+
+### 5.实现用户注册
+
+- 设计用户 Schema
+- 编写保证唯一性的逻辑
+
+```js
+// 设计用户 Schema
+const userSchema = new Schema({
+    // 这个是自动生成的，但是每次都返回不好，所以我们这里给他设置下，让它不返回
+    __v: {type: Number, select: false},
+    name: { type: String, required: true }, // 第一个表示是字符串这没啥，第二个意思是必写项
+    // select 的意思是不返回，这是密码，如果能被请求到，那是不是很恐怖🙀
+    password: {type: String, required: true, select: false}
+})
+
+// 新建用户（有个查询用户名是否重复）
+async createUser(ctx) {
+  const { name } = ctx.request.body
+  const repeatedUser = await User.findOne({ name }); // 查询是否有这个用户了
+
+  if (repeatedUser) ctx.throw(409, '用户已经存在');
+  const user = await new User(ctx.request.body).save()
+  ctx.body = user
+}
+```
+
+---
+
+### 6.实现登录并获取 Token
+
+- 登录接口的设计（因为它不属于用户增删改查中的一种）
+- 使用 jsonwebtoken 生成 token
+
+```js
+// 登录
+async login(ctx) {
+  // 校验用户名和密码
+  const user = await User.findOne(ctx.request.body)
+  if (!user) { ctx.throw(401, '用户名或者密码不正确')}
+  // 登录正确，生成token
+  const { _id, name } = user;
+  const token = josnwebtoken.sign({ _id, name }, key, {expiresIn: '1d'}) // 参数一 账号密码，参数二 秘钥，参数三 配置，这里配置的是过期时间 1d 1天
+  ctx.body = { token }
+}
+```
+
+---
+
+### 7.自己编写中间件实现用户的认证和授权
+
+---
+
+### 8.用koa-jwt中间件实现用户的认证和授权
+
+- 安装：npm i koa-jwt --save
+
+```js
+// 在路由 /routes/users.js
+const jwt = require('koa-jwt');
+const auth = jwt({ secret: 'zhukunpeng'}) // 传入秘钥
+
+router.post('/user/:id', auth, checkOwner, findUserId) // 根据ID 查询特定用户 数据
+
+// /controller/users.js
+// 权限校验
+async checkOwner(ctx, next) {
+  if (ctx.params.id !== ctx.state.user._id) {ctx.throw(403, '没有权限查看')}
+  await next();
+}
+```
+
+<img src="https://itzkp-1253302184.cos.ap-beijing.myqcloud.com/notes/2.note/5.%E5%85%B6%E4%BB%96%E9%9B%B6%E6%95%A3%E7%AC%94%E8%AE%B0/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8BRESTful%20API/7.png" />
+
+
+
+---
+
 ## 📚参考列表（最后更新2019.6.23 23:23）
 
 - [慕课网课程-Node.js开发仿知乎服务端 深入理解RESTful API](https://coding.imooc.com/learn/list/354.html)
