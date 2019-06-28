@@ -682,6 +682,25 @@ async checkOwner(ctx, next) {
 <img src="https://itzkp-1253302184.cos.ap-beijing.myqcloud.com/notes/2.note/5.%E5%85%B6%E4%BB%96%E9%9B%B6%E6%95%A3%E7%AC%94%E8%AE%B0/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8BRESTful%20API/7.png" />
 
 
+---
+
+## 第十五章：项目上线，部署
+
+
+### 1.用NGINX实现端口转发
+
+**一般服务器很多端口都没开，一般80端口开了，NGINX 就可以代理80端口，然后访问到内网的具体端口上**
+
+- 语法检查：nginx -t（主要修改nginx.conf）
+- 重启：service nginx restart
+
+<img src="https://itzkp-1253302184.cos.ap-beijing.myqcloud.com/notes/2.note/5.%E5%85%B6%E4%BB%96%E9%9B%B6%E6%95%A3%E7%AC%94%E8%AE%B0/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8BRESTful%20API/8.png" />
+
+**Postman生成文档**
+
+- 还是很漂亮的
+
+<img src="https://itzkp-1253302184.cos.ap-beijing.myqcloud.com/notes/2.note/5.%E5%85%B6%E4%BB%96%E9%9B%B6%E6%95%A3%E7%AC%94%E8%AE%B0/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8BRESTful%20API/9.png" />
 
 ---
 
