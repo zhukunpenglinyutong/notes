@@ -422,19 +422,92 @@ module.exports = router // 导出
 
 ### 2.koa自带的错误处理
 
+- 如果请求的接口不存在的话，就会返回 404
+- 如果服务器内部语法错误，或者其他错误，就会返回 500
 
+```js
+// 手动抛出
+ctx.throw(404, '返回报错文本信息')
+```
+
+**❣️但是这里返回的都是文字，我们想返回JSON，这样才格式统一**
 
 ---
 
 ### 3.自己编写错误处理中间件
 
+- 写到所有中间件的最前面
+
+```js
+// 原理就是捕捉下一个中间件的报错，然后返回状态码和内容（JSON格式）
+app.use(async (ctx, next) => {
+  try {
+    await next()
+  } catch (err) {
+    ctx.status = err.status || err.statusCode
+    ctx.body = {
+      message: err.message
+    }
+  }
+})
+```
+
 ---
 
 ### 4.使用 koa-json-error进行错误处理
 
+- 安装：npm i koa-json-error --save
+
+```js
+// app.js
+const error = require('koa-json-error')
+app.use(error())
+
+// 堆栈信息都返回了，这里可以配置
+// {
+//     "message": "Not Found",
+//     "name": "NotFoundError",
+//     "stack": "NotFoundError: Not Found\n    at Object.throw (/Users/zhukunpeng/Desktop/RESU ful API/node_modules/koa/lib/context.js:97:11)\n    at /Users/zhukunpeng/Desktop/RESU ful API/node_modules/koa-json-error/lib/middleware.js:52:58\n    at processTicksAndRejections (internal/process/task_queues.js:89:5)",
+//     "status": 404
+// }
+```
+
+**🔥设置环境变量，让我们在开发时候错误处理返回堆栈信息，生产环境不返回（未完成）**
+
+- 安装：npm i cross-env --save-dev
+
 ---
 
 ### 5.使用koa-parameter进行参数校验
+
+- 安装：npm i koa-parameter --save
+
+```js
+// app.js
+// 这个通常是校验请求体
+const parameter = require('koa-parameter')
+app.use(parameter(app)) // 参数校验，加入app的话，就能在全局使用了
+
+// controller/users.js
+
+// 新建用户
+async createUser(ctx) {
+  
+  ctx.verifyParams({
+    name: {type: 'string'}
+  })
+  const { name } = ctx.request.body
+  const user = await new User(ctx.request.body).save()
+  ctx.body = user
+}
+
+```
+
+**如果错了的话**
+
+<img src="https://itzkp-1253302184.cos.ap-beijing.myqcloud.com/notes/2.note/5.%E5%85%B6%E4%BB%96%E9%9B%B6%E6%95%A3%E7%AC%94%E8%AE%B0/%E6%85%95%E8%AF%BE%E7%BD%91%E8%AF%BE%E7%A8%8BRESTful%20API/10.png" />
+
+**还有更多的限制条件，例如必选，例如什么类型，这个都可以查阅**
 
 ---
 
