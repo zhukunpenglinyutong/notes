@@ -757,7 +757,227 @@ async checkOwner(ctx, next) {
 
 ---
 
-## 第十五章：项目上线，部署
+## 🐲第八章：上传图片模块
+
+### 1.上传图片需求分析
+
+- 用户头像
+- 封面图片
+- 问题和回答中的图片
+- 话题图片
+
+---
+
+- 基础功能：上传图片，生成图片链接
+- 附加功能：限制上传图片的大小和类型，生成高中低三种分辨率的图片链接，生成CDN
+- 上传图片的技术方案
+  - 阿里云OSS等云服务，推荐生成环境下使用
+  - 直接上传到服务器，不推荐在生产环境下使用，因为不稳定
+
+---
+
+### 2.使用 koa-body 中间件获取上传的文件
+
+- 之前我们用的是 koa-bodyparser ，但是这个不支持文件，只支持 JSON 和... ，所以我们用 koa-body 这个中间件
+- 安装：npm i koa-body  --save
+
+```js
+// app.js && 建立 public/uploads 用来盛放上传文件
+const bodyBody = require('koa-body')
+app.use(bodyBody({
+    multipart: true, // 启用文件传输
+    formidable: {
+        uploadDir: path.join(__dirname, 'app/public/uploads'), // 文件上传路径
+        keepExtensions: true, // 保留拓展名
+    }
+})) // 解析 请求body中的 JSON
+
+// 建立 controller/home.js
+class HomeCtl {
+
+    // 上传文件
+    upload(ctx) {
+        const file = ctx.request.files;
+        ctx.body = {
+          message: '上传成功'
+        } 
+    }
+}
+
+module.exports = new HomeCtl()
+
+// 建立 router/home.js
+const Router = require('koa-router');
+const router = new Router; // new Router({prefix:'user'}) 这样可以设置路由前缀，也是实用的
+const { upload } = require('../controller/home');
+
+router.post('/upload', upload)
+
+module.exports = router
+
+```
+
+---
+
+### 3.使用 koa-static 中间件生成图片链接
+
+- 安装：npm i koa-static --save
+
+```js
+// app.js
+const koaStatic = require('koa-static')
+app.use(koaStatic(path.join(__dirname, 'app/public/'))) // 生成上传图片链接，这里还启动了静态服务，直接代理我们设置的文件路径
+
+
+// controller/home.js
+const path = require('path')
+class HomeCtl {
+    // 上传文件
+    upload(ctx) {
+        const file = ctx.request.files.file;
+        const basename = path.basename(file.path)
+        ctx.body = { url: `${ctx.origin}/uploads/${basename}`}
+    }
+}
+module.exports = new HomeCtl()
+
+```
+
+---
+
+### 4.编写前端页面上传文件
+
+```html
+<form action="http://localhost:3000/upload" enctype="multipart/form-data" method="POST">
+  <input type="file" name="file">
+  <button type="submit">上传</button>
+</form>
+```
+
+**返回结果**
+
+```js
+{
+    "url": "http://localhost:3000/uploads/upload_34ca030139713427223a1c8b604b603a.jpg"
+}
+```
+
+---
+
+## 🍀第九章：个人资料模块
+
+---
+
+### 1.个人资料的 schema 设计
+
+```js
+// module/users.js
+const mongoose = require('mongoose');
+const { Schema, model } = mongoose;
+
+const userSchema = new Schema({
+    __v: {type: Number, select: false},
+    name: { type: String, required: true }, // 第一个表示是字符串这没啥，第二个意思是必写项
+    password: {type: String, required: true, select: false},
+    avatar_url: { type: String }, // 头像的URL
+    gender: { type: String, enum: ['male', 'famale'], default: 'male' }, // 性别，这里后面 enum 是mongoose的可枚举类型，枚举的值是那两个, 后面的是默认值 male
+    handline: { type: String }, // 一句话介绍
+    loacations: { type: [{type: String}]}, // 居住地，类型是字符串数组
+    employments: { // 职业经历
+        type: {
+            company: { type: String }, // 公司
+            job: { type: String } // 职位
+        }
+    }
+})
+
+module.exports = model('User', userSchema); // 前面User会在MongoDB里面建立一个集合
+
+```
+
+---
+
+### 2.个人资料的参数校验
+
+```js
+// 还是有一些和 mongoose 不一样的地方，这里要注意
+ctx.verifyParams({
+  name: { type: 'string' },
+  avatar_url: { type: 'string', required: false }, // required: false表示非必选
+  gender: { type: 'string', required: false },
+  handline: { type: 'string', required: false },
+  loacations: { type: 'array', itemType: 'string', required: false }, // itemType这是表示数组里面的项是字符串类型，这和mongoose不一样
+  employments: { type:'array', itemType: 'object', required: false }
+})
+```
+
+---
+
+### 🔥3.RESTful API 最佳实践 - 字段过滤
+
+- 有哪些字段显示，哪些字段不显示，有种GrhpQL的感觉
+
+```js
+// 通过 select: false 我们可以隐藏一些返回字段
+const userSchema = new Schema({
+    __v: {type: Number, select: false},
+    name: { type: String, required: true }, // 第一个表示是字符串这没啥，第二个意思是必写项
+    password: {type: String, required: true, select: false},
+    avatar_url: { type: String }, // 头像的URL
+    gender: { type: String, enum: ['male', 'famale'], default: 'male' }, // 性别，这里后面 enum 是mongoose的可枚举类型，枚举的值是那两个, 后面的是默认值 male
+    handline: { type: String, select: false}, // 一句话介绍
+    loacations: { type: [{type: String}], select: false}, // 居住地，类型是字符串数组
+    employments: { // 职业经历
+        type: {
+            company: { type: String }, // 公司
+            job: { type: String } // 职位
+        },
+        select: false
+    }
+})
+
+// /controller/users.js（主要就是借助mongoose 的 select方法，拼接成 +...+...这种形式）
+
+// 问题就是 现在一个可以，但是两个就不行了
+
+// 查询用户
+async findUser(ctx) {
+  const { fields } = ctx.query; // 这是以分号隔开的
+  let selectFidlds = null;
+  // 将分号隔开的转为 +...+ 这种形式
+  if (fields) selectFidlds = fields.split(';').filter(f => f).map(f => '+' + f).join('');
+  ctx.body = await User.find().select(`${selectFidlds}`)
+}
+```
+
+---
+
+## 第十章：关注与粉丝模块
+
+### 1.关注与粉丝的 schema 设计
+
+**功能点**
+
+- 关注，取消关注
+- 获取关注人，粉丝列表（用户-用户 多对多关系）
+
+---
+
+```js
+const userSchema = new Schema({
+  // ......
+  following: { // 关注
+      type: [ { type: Schema.Types.ObjectId, ref: 'User' } ], // 非常好的一个技巧
+      select: false
+  }
+})
+
+```
+
+
+---
+
+## 🌿第十五章：项目上线，部署
 
 
 ### 1.用NGINX实现端口转发
