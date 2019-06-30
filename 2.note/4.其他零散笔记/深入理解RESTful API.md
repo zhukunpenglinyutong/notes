@@ -967,13 +967,17 @@ async findUser(ctx) {
 const userSchema = new Schema({
   // ......
   following: { // 关注
-      type: [ { type: Schema.Types.ObjectId, ref: 'User' } ], // 非常好的一个技巧
+      type: [ { type: Schema.Types.ObjectId, ref: 'User' } ], // 非常好的一个技巧，但是我不太懂
       select: false
   }
 })
 
 ```
 
+
+---
+
+### 2.RESTful API 风格的关注与粉丝接口
 
 ---
 
