@@ -952,7 +952,7 @@ async findUser(ctx) {
 
 ---
 
-## 第十章：关注与粉丝模块
+## 🌳第十章：关注与粉丝模块
 
 ### 1.关注与粉丝的 schema 设计
 
@@ -978,6 +978,221 @@ const userSchema = new Schema({
 ---
 
 ### 2.RESTful API 风格的关注与粉丝接口
+
+```js
+// controller/users.js
+// 获取用户的关注者
+async listFollowing(ctx) {
+  const user = await User.findById(ctx.params.id).select('+following').populate('+following')
+  // 获取的关注者是用户的ID，我们正常来说需要遍历这个ID，才能拿到每个关注者的头像和其他信息
+  // 但是 model/users.js 里面的结构那么写，让我们可以使用 populate() 这个快捷方法了
+  if (!user) {ctx.throw(404, '用户不存在')}
+  ctx.body = user.following
+}
+// 用户-关注用户
+async follow(ctx) {
+  const me = await User.findById(ctx.state.user._id).select('+following')
+  if (!me.following.map(id => id.toString()).includes(ctx.params.id)) {
+    me.following.push(ctx.params.id) // 把数组放到的ID放到里面
+    me.save()
+  }
+  ctx.status = 204
+}
+// 用户-取消关注
+async unfollow(ctx) {
+  const me = await User.findById(ctx.state.user._id).select('+following')
+  const index = me.following.map(id => id.toString()).indexOf(ctx.params.id)
+  if (index > -1) {
+    me.following.splice(index, 1)
+    me.save()
+  }
+  ctx.status = 204
+}
+// 用户-获取粉丝
+async listFollowers(ctx) {
+  const users = await User.find({following: ctx.params.id})
+  ctx.body = users
+}
+
+
+// routes/users.js
+router.get('/user/:id/following', listFollowing) // 获取某个用户 关注了谁
+router.get('/user/:id/followers', listFollowers) // 获取某个用户 关注了谁
+router.put('/user/following/:id', auth, follow) // 用户-关注用户
+router.delete('/user/following/:id', auth, unfollow) // 用户-取消关注
+```
+
+---
+
+### 3.编写校验用户存在与否的中间件
+
+**在关注，和取消关注之前，校验一下用户存在与否**
+
+```js
+// controller/users.js
+// 检测用户是否存在（中间件）
+async checkUserExist(ctx, next) {
+  const user = await User.findById(ctx.params.id)
+  if (!user) { ctx.throw(404, '用户不存在')}
+  await next()
+}
+
+// routes/users.js（添加）
+router.put('/user/following/:id', auth, checkUserExist, follow) // 用户-关注用户
+router.delete('/user/following/:id', auth, checkUserExist, unfollow) // 用户-取消关注
+```
+
+---
+
+## 🌴第十一章：话题模块
+
+### 1.话题增改查接口
+
+**功能模块功能点**
+
+- 话题的增改查（没有删，因为话题关联太多）
+- 分页，模糊查询
+- 用户属性中的话题引用
+- 关注/取消关注话题，用户关注的话题列表
+
+**设计Schema**
+
+```js
+// 建立新文件 modle/topics.js
+const mongoose = require('mongoose');
+const { Schema, model } = mongoose;
+
+const topicSchema = new Schema({
+    __v: {type: Number, select: false},
+    name: { type: String, required: true }, // 话题名称
+    avatar_url: { type: String }, // 话题图片
+    introduction: { type: String, select: false}, // 话题简介
+})
+
+module.exports = model('Topic', topicSchema);
+```
+
+**写Controller**
+
+```js
+// 建立新文件 controller/topics.js
+const Topic = require('../model/topics')
+
+class TopicsCtl {
+   
+    // 获取话题列表
+    async find(ctx) {
+        ctx.body = await Topic.find();
+    }
+
+    // 查询特定话题
+    async findById(ctx) {
+        // const { fields } = ctx.query
+        // const selectFields = fields.split(';').filter(f => f).map(f => ' +' + f).join('')
+        // const topic = await Topic.findById(ctx.params.id).select(selectFields)
+        const topic = await Topic.findById(ctx.params.id)
+        ctx.body = topic
+    }
+
+    // 创建话题
+    async create(ctx) {
+        ctx.verifyParams({
+            name: { type: 'string', required: true },
+            avatar_url: { type: 'string', required: false },
+            introduction: { type: 'string', required: false }
+        })
+
+        const topic = await new Topic(ctx.request.body).save()
+        ctx.body = topic
+    }
+
+    // 修改话题
+    async update(ctx) {
+        ctx.verifyParams({
+            name: { type: 'string', required: false },
+            avatar_url: { type: 'string', required: false },
+            introduction: { type: 'string', required: false }
+        })
+
+        const topic = await Topic.findByIdAndUpdate(ctx.params.id, ctx.request.body)
+        ctx.body = topic
+    }
+}
+
+module.exports = new TopicsCtl()
+```
+
+**写Routes**
+
+```js
+// 建立文件 routes/topics.js
+const Router = require('koa-router');
+const router = new Router; // new Router({prefix:'user'}) 这样可以设置路由前缀，也是实用的
+const { find, findById, create, update } = require('../controller/topics');
+const jwt = require('koa-jwt');
+const auth = jwt({ secret: 'zhukunpeng'}) // 传入秘钥
+
+router.get('/topics', find) // 查询所有话题
+router.post('/topics', auth, create) // 创建话题
+router.get('/topics/:id', findById) // 获取特定话题
+router.patch('/topics/:id', auth, update) // 修改特定话题
+
+module.exports = router
+```
+
+---
+
+### 🔥2.分页实现
+
+**根据查询字符串来限制列表的返回值**
+
+```js
+// 获取话题列表 的分页逻辑（主要是算法）
+async find(ctx) {
+    const { per_page = 10 } = ctx.query
+    const page = Math.max(ctx.query.page * 1, 1) - 1 // 当前是第几页
+    const perPage = Math.max(per_page * 1, 1) // 每页显示几条
+    // mongoose limit() 可以获取几个，skip() 可以从第几个开始，虽然没有 limit(x, y) 这种好，但是也行
+    ctx.body = await Topic.find().limit(perPage).skip(page * perPage);
+}
+
+// 示例：http://localhost:3000/topics?page=1&per_page=2
+```
+
+---
+
+### 🔥3.模糊搜索（关键词搜索）
+
+**借助mongoose语法糖，一行代码就能实现：在find() 里面写正则**
+
+```js
+// ......
+ctx.body = await Topic
+    .find({ name: new RegExp(ctx.query.q) })
+    .limit(perPage).skip(page * perPage);
+```
+
+---
+
+### ❣️4.用户属性中的话题引用
+
+**没太懂，但是这里 type: Schema.Types.ObjectId, ref: 'Topic' 方法是一种引用，类似于MySQL的外链，多表查询用的那种**
+
+---
+
+### 5.关注话题接口
+
+---
+
+## 🌱第十二章：问题模块
+
+---
+
+## 🌿第十三章：答案模块
+
+---
+
+## 🌾第十四章：评论模块
 
 ---
 
