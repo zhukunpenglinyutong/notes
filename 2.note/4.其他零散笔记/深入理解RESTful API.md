@@ -1170,6 +1170,9 @@ async find(ctx) {
 ctx.body = await Topic
     .find({ name: new RegExp(ctx.query.q) })
     .limit(perPage).skip(page * perPage);
+
+// mongoose使用多个字段的模糊
+// .find({ $or: [{name: ...}, {...}] })
 ```
 
 ---
@@ -1180,15 +1183,52 @@ ctx.body = await Topic
 
 ---
 
-### 5.关注话题接口
+### 5.关注话题接口（略...）
 
 ---
 
 ## 🌱第十二章：问题模块
 
+### 1.问题的增删改查，用户的问题列表（用户-问题 一对多关系）
+
+一个用户可以提多个问题，但是一个问题只属于一个用户
+
+**建立 Schema**
+
+```js
+const mongoose = require('mongoose');
+const { Schema, model } = mongoose;
+
+const questionSchema = new Schema({
+    __v: {type: Number, select: false},
+    title: { type: String, required: true }, // 问题标题
+    description: { type: String }, // 描述
+    questioner: { type: Schema.Types.ObjectId, ref: 'User', required: true, select: false}, // 提问者，这个设计是实现 一对多的核心
+})
+
+module.exports = model('Question', questionSchema);
+```
+
+**实现 Controller**
+
+```js
+
+```
+
+**❣️这里我突然有一个想法，就是 可以抽象出一个基本类，上面挂载分页方法，模糊查询方法等，甚至增删改查接口也能抽离成公共的，下面的类谁想用了，就直接用继承，然后使用了**
+
+---
+
+### 2.话题-问题 多对多关系
+
+- 思路：两个列表，就是这两个列表都能成为对方的列表
+
 ---
 
 ## 🌿第十三章：答案模块
+
+### 1.答案模块二级嵌套的增删改查接口
+
 
 ---
 

@@ -21,6 +21,7 @@
     - 🚪【文件增加】...6.计算机知识
 - 🍞【内容增加】1.quickcheck/...4.非关系数据库速查（mongoose + koa2）
 - 🍞【内容增加】1.quickcheck/...JS方法速查
+- 🍞【内容增加】2.note/...深入理解RESTful API
 
 ---
 
