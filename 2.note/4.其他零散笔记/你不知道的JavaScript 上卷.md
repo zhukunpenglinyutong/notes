@@ -1,4 +1,4 @@
-# 《你不知道的JavaScript 上卷》
+# 你不知道的JavaScript 上卷
 
 ## 第一部分 作用域和闭包
 
