@@ -34,6 +34,8 @@ function init() {
   // 复制 1.quickcheck && 2.note 到 docs目录下（涉及到node文件夹的复制）
   exists('./1.quickcheck','./docs/1.quickcheck',copy) // 文件夹复制
   exists('./2.note','./docs/2.note',copy) // 文件夹复制
+  exists('./3.other','./docs/3.other',copy) // 文件夹复制
+
   console.log('2.文件夹复制成功 (异步)')
 
 
@@ -67,6 +69,13 @@ function init() {
           return console.error(err);
       }
       console.log("5.note README.md 数据写入成功！ (异步)");
+    });
+
+    fs.writeFile('./docs/3.other/README.md', data,  function(err) {
+      if (err) {
+          return console.error(err);
+      }
+      console.log("6.other README.md 数据写入成功！ (异步)");
     });
 
   });
@@ -131,6 +140,34 @@ function init() {
       }
   })
 
+  let strThree = ''
+  let three = fs.readdirSync('./3.other')
+  three.forEach(item => {
+      if (!/.md/.test(item) && item !== '.DS_Store') {
+
+        let files3 = []
+        let files3Str = ''
+        fs.readdirSync(path.join('./3.other', item)).forEach( item1 => {
+          // Mac系统下的问题
+          if (item1 !== '.DS_Store') {
+            files3.push(`${path.join(path.join('./3.other', item), item1)}`)
+          }
+        })
+
+        files3.forEach( item3 => {
+          files3Str += `
+          '${item3}',`
+        })
+
+        strThree += `
+          {
+            title: '${item}',
+            children: [${files3Str}]
+          },
+        `
+      }
+  })
+
   // 写入
   let configStr = `
   module.exports = {
@@ -144,7 +181,8 @@ function init() {
       //导航
       nav: [
         { text: '速查', link: '/1.quickcheck/' },
-        { text: '笔记', link: '/2.note/' }
+        { text: '笔记', link: '/2.note/' },
+        { text: '其他', link: '/3.other/' }
       ],
       // 侧边栏
       sidebar: {
@@ -153,6 +191,9 @@ function init() {
         ],
         '/2.note': [
           ${strTwo}
+        ],
+        '/3.other': [
+          ${strThree}
         ]
       }
     },
