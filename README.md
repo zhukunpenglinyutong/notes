@@ -12,7 +12,8 @@
 
 # 更佳体验 🚀
 
-要想获得更佳体验，请访问 [notes.itzkp.com](https://notes.itzkp.com)
+- 要想获得更佳体验，请访问 [notes.itzkp.com](https://notes.itzkp.com)
+- [--> GitHub托管Notes，速度快5倍](https://zhukunpenglinyutong.github.io/)
 
 ---
 
