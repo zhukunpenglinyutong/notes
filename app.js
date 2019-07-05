@@ -181,7 +181,7 @@ function init() {
       //导航
       nav: [
         { text: '速查', link: '/1.quickcheck/' },
-        { text: '笔记', link: '/2.note/' },
+        { text: '前端笔记', link: '/2.note/' },
         { text: '其他', link: '/3.other/' }
       ],
       // 侧边栏
