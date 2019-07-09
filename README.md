@@ -12,8 +12,9 @@
 
 # 更佳体验 🚀
 
-- 要想获得更佳体验，请访问 [notes.itzkp.com](https://notes.itzkp.com)
-- [--> GitHub托管Notes，速度快5倍](https://zhukunpenglinyutong.github.io/)
+- 要想获得更佳体验，请访问 
+- [--> GitHub托管Notes，速度快5倍（推荐）](https://zhukunpenglinyutong.github.io/)
+- [notes.itzkp.com](https://notes.itzkp.com)
 
 ---
 
@@ -21,7 +22,7 @@
 
 ### 🔥项目核心思想说明（推荐阅读）
 
-- [查看项目核心思想](https://notes.itzkp.com/3.other/0.%E9%A1%B9%E7%9B%AE%E6%96%B9%E5%90%91%E6%8C%87%E5%8D%97/0.%E9%A1%B9%E7%9B%AE%E6%A0%B8%E5%BF%83%E6%80%9D%E6%83%B3.html)
+- [查看项目核心思想](https://zhukunpenglinyutong.github.io/3.other/0.%E9%A1%B9%E7%9B%AE%E6%96%B9%E5%90%91%E6%8C%87%E5%8D%97/0.%E9%A1%B9%E7%9B%AE%E6%A0%B8%E5%BF%83%E6%80%9D%E6%83%B3.html)
 
 ### 1.quickcheck（速查）
 
@@ -60,7 +61,7 @@ npm run build（打包，打包后资源在 docs/.vuepress/dist下）
 **构建原理说明**：根据app.js 书写匹配规则和进行目录调整，达到VuePress能够识别的程度
 
 **环境依赖：node**
-- [notes.itzkp.com node安装教程（更快速的安装 Centos系统下）](https://notes.itzkp.com/1.quickcheck/3.%E8%BF%90%E7%BB%B4/1.Centos%E4%B8%8B%E5%AE%89%E8%A3%85%E5%90%84%E7%A7%8D%E8%BD%AF%E4%BB%B6.html#_1-%E5%AE%89%E8%A3%85nodejs)
+- [notes.itzkp.com node安装教程（更快速的安装 Centos系统下）](https://zhukunpenglinyutong.github.io/1.quickcheck/3.%E8%BF%90%E7%BB%B4/1.%E5%90%84%E7%A7%8D%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E9%80%9F%E6%9F%A5.html#%F0%9F%94%A5centos7-%E4%B8%8B%E5%AE%89%E8%A3%85%E8%BD%AF%E4%BB%B6)
 - [node官方下载](https://nodejs.org/en/download/)
 
 ---
@@ -69,7 +70,7 @@ npm run build（打包，打包后资源在 docs/.vuepress/dist下）
 
 **环境依赖：Jenkins**
 
-[notes.itzkp.com 安装Jenkins教程](https://notes.itzkp.com/1.quickcheck/3.%E8%BF%90%E7%BB%B4/1.%E5%90%84%E7%A7%8D%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E9%80%9F%E6%9F%A5.html#%F0%9F%94%A5centos7-%E4%B8%8B%E5%AE%89%E8%A3%85%E8%BD%AF%E4%BB%B6)
+[notes.itzkp.com 安装Jenkins教程](https://zhukunpenglinyutong.github.io/1.quickcheck/3.%E8%BF%90%E7%BB%B4/1.%E5%90%84%E7%A7%8D%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E9%80%9F%E6%9F%A5.html#%F0%9F%94%A5centos7-%E4%B8%8B%E5%AE%89%E8%A3%85%E8%BD%AF%E4%BB%B6)
 
 
 **GitHub pull触发自动构建实现**
@@ -96,7 +97,7 @@ cp -r ./docs/.vuepress/dist/ /notes/
 
 **v0.3方向详细指南**
 
-- [v0.3方向详细指南](https://notes.itzkp.com/3.other/0.%E9%A1%B9%E7%9B%AE%E6%96%B9%E5%90%91%E6%8C%87%E5%8D%97/v0.3%E6%96%B9%E5%90%91%E6%8C%87%E5%8D%971.html)
+- [v0.3方向详细指南](https://zhukunpenglinyutong.github.io/3.other/0.%E9%A1%B9%E7%9B%AE%E6%96%B9%E5%90%91%E6%8C%87%E5%8D%97/v0.3%E6%96%B9%E5%90%91%E6%8C%87%E5%8D%971.html)
 
 ---
 
