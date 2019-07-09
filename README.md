@@ -6,7 +6,7 @@
 [![提交活动](https://img.shields.io/github/commit-activity/m/zhukunpenglinyutong/notes.svg)](提交活动)
 [![最后一次提交](https://img.shields.io/github/last-commit/zhukunpenglinyutong/notes.svg)](最后一次提交)
 
-<img src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1559637808&di=b2b7de8007a8e1c5e3ea07f3b2ae0192&src=http://5b0988e595225.cdn.sohucs.com/images/20171230/a540bdf43bdc49828f40a8a0e50ae762.jpeg" />
+<img style="width:80%" src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1559637808&di=b2b7de8007a8e1c5e3ea07f3b2ae0192&src=http://5b0988e595225.cdn.sohucs.com/images/20171230/a540bdf43bdc49828f40a8a0e50ae762.jpeg" />
 
 ---
 
@@ -15,6 +15,14 @@
 - 要想获得更佳体验，请访问 
 - [--> GitHub托管Notes，速度快5倍（推荐）](https://zhukunpenglinyutong.github.io/)
 - [notes.itzkp.com](https://notes.itzkp.com)
+
+---
+
+### 🔥近期预告
+
+- 近期正在尝试脱离VuePress的依赖，一方面是需要更多的拓展性
+- 而且还要考虑网站的性能，不能因为需要某些功能，而过多的引入第三方的插件
+- 为支撑上述的实现，将会开发一款组件库（博客类）
 
 ---
 
