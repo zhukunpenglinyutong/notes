@@ -13,7 +13,7 @@
 ---
 
 - 🍞【内容增加】2.note/...深入了解JavaScript（for、forEach、for...in、for...of 的区别）
-
+- 🔥【内容增加】2.note/...5.书写迷你版本Vue（第一版 40%）
 
 ---
 
