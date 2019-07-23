@@ -12,6 +12,11 @@
 
 ---
 
+- 🍞【内容增加】2.note/...深入了解JavaScript（for、forEach、for...in、for...of 的区别）
+
+
+---
+
 ### 2019.7.22 🌧
 
 - 🍞【内容增加】2.note/...ES6以及JS内置方法梳理
