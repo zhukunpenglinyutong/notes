@@ -54,15 +54,18 @@
 
 ### 1.构建过程
 
-```js
-
+```sh
+# 克隆
 git clone https://github.com/zhukunpenglinyutong/notes.git
 
+# 安装依赖
 npm install
 
-npm run dev（预览，VuePress会启动一个预览的网址）
+# 预览，VuePress会启动一个预览的网址
+npm run dev
 
-npm run build（打包，打包后资源在 docs/.vuepress/dist下）
+# 打包，打包后资源在 docs/.vuepress/dist下
+npm run build
 
 ```
 
@@ -125,8 +128,6 @@ cp -r ./docs/.vuepress/dist/ /notes/
 ❣️声明：万分抱歉，因为个人经济的问题，访问人数多的时候网络加载会很慢，项目刚开始的时候，加载5s内，现在随着人数的增多，有时候可能会20s左右，给大家体验带来了不便，再次抱歉，也可以访问 [--> GitHub托管Notes，速度快5倍](https://zhukunpenglinyutong.github.io/)
 
 🦀🦀🦀另外北京如果有坑位可以提供的话，可以扫上面的微信，欢迎来撩，工资高些我就有钱更新配置了
-
-[简历...写作中]()
 
 ---
 
