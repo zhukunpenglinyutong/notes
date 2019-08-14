@@ -1,12 +1,20 @@
 # 知识如果不记录，就会流失90%
 
-[![License](https://img.shields.io/github/license/zhukunpenglinyutong/notes.svg)](LICENSE)
-[![repo-size](https://img.shields.io/github/repo-size/zhukunpenglinyutong/notes.svg)](repo-size)
-[![CodeTriage](https://www.codetriage.com/zhukunpenglinyutong/notes/badges/users.svg)](CodeTriage)
-[![提交活动](https://img.shields.io/github/commit-activity/m/zhukunpenglinyutong/notes.svg)](提交活动)
-[![最后一次提交](https://img.shields.io/github/last-commit/zhukunpenglinyutong/notes.svg)](最后一次提交)
+<p align="center">
+    <a href="javascript:;"><img src="https://img.shields.io/github/license/zhukunpenglinyutong/notes.svg" alt="LICENSE"></a>
+    <a href="javascript:;"><img src="https://img.shields.io/github/repo-size/zhukunpenglinyutong/notes.svg" alt="repo-size"></a>
+    <a href="javascript:;"><img src="https://www.codetriage.com/zhukunpenglinyutong/notes/badges/users.svg" alt="CodeTriage"></a>
+    <a href="javascript:;"><img src="https://img.shields.io/github/commit-activity/m/zhukunpenglinyutong/notes.svg" alt="提交活动"></a>
+    <a href="javascript:;"><img src="https://img.shields.io/github/last-commit/zhukunpenglinyutong/notes.svg" alt="最后一次提交"></a>
+    <img style="width:80%" src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1559637808&di=b2b7de8007a8e1c5e3ea07f3b2ae0192&src=http://5b0988e595225.cdn.sohucs.com/images/20171230/a540bdf43bdc49828f40a8a0e50ae762.jpeg" />
+</p>
 
-<img style="width:80%" src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1559637808&di=b2b7de8007a8e1c5e3ea07f3b2ae0192&src=http://5b0988e595225.cdn.sohucs.com/images/20171230/a540bdf43bdc49828f40a8a0e50ae762.jpeg" />
+---
+
+### 🔥近期预告
+
+- [ ] 重构Notes网站，开发博客展示系统
+- [ ] 补充知识内容 到50% (目前是30%)
 
 ---
 
@@ -16,12 +24,6 @@
 - [--> GitHub托管Notes，速度快5倍（推荐）](https://zhukunpenglinyutong.github.io/)
 - [notes.itzkp.com](https://notes.itzkp.com)
 
----
-
-### 🔥近期预告
-
-- [ ] 重构网站，开发博客系统
-- [ ] 补充内容到 50% (30%/50%)
 
 ---
 
