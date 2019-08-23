@@ -14,9 +14,9 @@
 
 ### 2019.8.23
 
-- 🍞【内容重构】2.noet/...1.JavaScript根基
-- 🍞【内容重构】2.noet/...2.JavaScript应用
-- 🍞【内容重构】2.noet/...3.JavaScript深入
+- 🍞【内容重构】2.noet/...1.JavaScript根基（只是调整结构）
+- 🍞【内容重构】2.noet/...2.JavaScript应用（只是调整结构）
+- 🍞【内容重构】2.noet/...3.JavaScript深入（预编译，作用域，作用域链，闭包，立即执行函数，内存回收机制）
 
 ---
 
