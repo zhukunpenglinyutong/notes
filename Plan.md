@@ -64,7 +64,7 @@
         - [x] 🐮立即执行函数（IIEF）
         - [ ] 🙉原型，原型链
         - [x] 🐯this指向详解
-        - [ ] 🐸var let const function 到底区别在哪里？
+        - [x] 🐸var let const function 到底区别在哪里？
         - [x] 🐙内存回收机制
         - [x] 🐔Event Loop
         - [ ] 🐣位操作符
