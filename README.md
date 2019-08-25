@@ -76,7 +76,7 @@ npm run build
     - [ ] 重构 3.JavaScript/3.JavaScript应用
     - [ ] 重构 6.移动端/3.微信小程序
 
-[详细计划，和进度](https://github.com/zhukunpenglinyutong/notes/blob/master/Plan.md)
+[更多计划，和详细进度，请查看](https://github.com/zhukunpenglinyutong/notes/blob/master/Plan.md)
 
 ---
 

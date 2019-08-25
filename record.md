@@ -15,6 +15,7 @@
 ### 2019.8.25
 
 - 🍞【内容增加】2.noet/...2.JavaScript深入（this指向，var let const function 到底区别在哪里？）
+- 🍞【内容增加】2.note/...2.微信小程序（梳理结构，和增加WXML内容）
 
 ---
 
