@@ -74,7 +74,14 @@ npm run build
         - [x] 🐔Event Loop
         - [ ] 🐣位操作符
     - [ ] 重构 3.JavaScript/3.JavaScript应用
-    - [ ] 重构 6.移动端/3.微信小程序
+    - [ ] 重构 6.移动端/2.微信小程序
+        - [ ] 🐬第一部分：微信小程序核心理念，以及基础开发介绍
+        - [x] 🐳第二部分：WXML
+        - [x] 🐠第三部分：WXSS
+        - [x] 🔥第四部分：微信小程序基础组件
+        - [ ] 🐌第五部分：微信小程序API
+        - [ ] 🦀第六部分：微信小程序开放能力
+        - [ ] 🦋第七部分：组件化开发小程序
 
 [更多计划，和详细进度，请查看](https://github.com/zhukunpenglinyutong/notes/blob/master/Plan.md)
 
