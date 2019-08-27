@@ -59,10 +59,9 @@ npm run build
 
 ### 🏆近期计划
 
-- [ ] 速查
-- [ ] 前端体系（优先）
+- [ ] 前端体系（note）
     - [ ] 重构 3.JavaScript/1.JavaScript根基
-    - [x] 重构 3.JavaScript/2.JavaScript深入
+    - [x] 重构 3.JavaScript/[2.JavaScript深入](https://zhukunpenglinyutong.github.io/2.note/3.JavaScript/2.JavaScript深入.html)
         - [x] 🐶预编译
         - [x] 🐹作用域，作用域链（主要对于函数而言）
         - [x] 🐼闭包（对于函数而言）
@@ -74,8 +73,8 @@ npm run build
         - [x] 🐔Event Loop
         - [ ] 🐣位操作符
     - [ ] 重构 3.JavaScript/3.JavaScript应用
-    - [x] 重构 6.移动端/2.微信小程序
-        - [x] 🐬第一部分：微信小程序核心理念，以及基础开发介绍
+    - [x] 重构 6.移动端/[2.微信小程序](https://zhukunpenglinyutong.github.io/2.note/6.%E7%A7%BB%E5%8A%A8%E7%AB%AF/2.%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F.html)
+        - [x] 🐇第一部分：微信小程序核心理念，以及基础开发介绍
         - [x] 🐳第二部分：WXML
         - [x] 🐠第三部分：WXSS
         - [x] 🔥第四部分：微信小程序基础组件
@@ -83,8 +82,10 @@ npm run build
         - [x] 🦀第六部分：微信小程序开放能力
         - [x] 🔎第七部分：微信小程序其他探索
         - [x] 🦋第八部分：组件化开发小程序（基础）
-        - [ ] 🙉第九部分：组件化开发小程序（进阶）
+        - [x] 🙉第九部分：组件化开发小程序（进阶）
         - [ ] 🐯第十部分：现代化开发小程序探索
+    - [ ] 重构 8.1前端工程化/2.WebPack
+    - [ ] 重构 8.4前端代码质量/5.前端测试框架
 
 [更多计划，和详细进度，请查看](https://github.com/zhukunpenglinyutong/notes/blob/master/Plan.md)
 
