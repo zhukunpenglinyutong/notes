@@ -198,6 +198,9 @@ function init() {
       }
     },
     serviceWorker: true,
+    markdown: {
+      lineNumbers: true // 开启行号
+    }
   }
   `
 

@@ -60,6 +60,7 @@ npm run build
 ### 🏆近期计划
 
 - [ ] 前端体系（note）
+    - [ ] 🔥重构 Vue系列（5.1MVVM框架Vue）
     - [ ] 重构 3.JavaScript/1.JavaScript根基
     - [x] 重构 3.JavaScript/[2.JavaScript深入](https://zhukunpenglinyutong.github.io/2.note/3.JavaScript/2.JavaScript深入.html)
         - [x] 🐶预编译
@@ -83,8 +84,9 @@ npm run build
         - [x] 🔎第七部分：微信小程序其他探索
         - [x] 🦋第八部分：组件化开发小程序（基础）
         - [x] 🙉第九部分：组件化开发小程序（进阶）
-        - [ ] 🐯第十部分：现代化开发小程序探索
-        - [ ] 🕊第十一部分：微信小程序项目实践
+        - [ ] ☁️第十部分：小程序云开发
+        - [ ] 🐯第十一部分：现代化开发小程序探索
+        - [ ] 🕊第十二部分：微信小程序项目实践
     - [ ] 重构 8.1前端工程化/2.WebPack
         - [x] 🗂第一部分webpack初步探索
         - [x] 📕第二部分：loader
