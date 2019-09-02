@@ -63,6 +63,8 @@
     - [ ] [1.JavaScript根基](https://zhukunpenglinyutong.github.io/2.note/3.JavaScript/1.JavaScript根基.html)
         - [x] 🌲第七章：函数（Function）
         - [x] 🍀第八章：对象（Object）
+        - [x] 🌻第十章：DOM
+        - [ ] 🌾第十一章：BOM
         - [ ] ...
     - [ ] [2.JavaScript深入](https://zhukunpenglinyutong.github.io/2.note/3.JavaScript/2.JavaScript深入.html)
         - [x] 🐶预编译

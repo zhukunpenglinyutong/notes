@@ -62,6 +62,8 @@ npm run build
 - [ ] 前端体系（note）
     - [ ] 🔥重构 Vue系列（5.1MVVM框架Vue）
     - [ ] 重构 3.JavaScript/1.JavaScript根基
+        - [x] 🌻第十章：DOM
+        - [ ] 🌾第十一章：BOM
     - [x] 重构 3.JavaScript/[2.JavaScript深入](https://zhukunpenglinyutong.github.io/2.note/3.JavaScript/2.JavaScript深入.html)
         - [x] 🐶预编译
         - [x] 🐹作用域，作用域链（主要对于函数而言）
