@@ -88,6 +88,7 @@
         - [x] 🐙内存回收机制
         - [x] 🐔Event Loop
         - [ ] 🐣位操作符
+        - [x] 🦄Web中的编码和转义
     - [ ] [3.JavaScript应用](https://zhukunpenglinyutong.github.io/2.note/3.JavaScript/3.JavaScript应用.html)
         - [x] 🐲第零章：综合应用
         - [x] 🌴第五章：函数（Function）
@@ -124,6 +125,16 @@
     - [ ] 2.Glup
     - [ ] 3.Cli书写
 - [ ] 8.2前端安全
+    - [ ] 1.前端安全绪论
+        - [ ] 🐌基础一：Cookie
+        - [ ] 🐥基础二：Session
+        - [ ] 🐒基础三：Token
+    - [ ] 2.前端安全防护
+        - [x] 🍏第一种：SQL注入
+        - [x] 🍐第二种：XSS
+        - [ ] 🍊第三种：CSRF
+        - [ ] 🍈第四种：DDOS
+        - [ ] 🌶第五种：HTTP劫持
 - [ ] 8.3前端性能优化
 - [ ] 8.4前端代码质量
     - [ ] 1.ESLint
