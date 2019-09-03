@@ -61,6 +61,14 @@ npm run build
 
 - [ ] 前端体系（note）
     - [ ] 🔥重构 Vue系列（5.1MVVM框架Vue）
+        - [ ] 5.1MVVM框架（Vue）
+        - [ ] 1.MVVM框架绪论
+        - [ ] 2.Vue基本使用
+        - [ ] 3.Vue全家桶使用
+        - [ ] 4.Vue源码解析以及实现
+        - [ ] 5.VueRouter源码解析以及实现
+        - [ ] 6.Vuex源码解析以及实现
+        - [ ] 7.Axios源码解析以及实现
     - [x] 重构 3.JavaScript/[1.JavaScript根基](https://zhukunpenglinyutong.github.io/2.note/3.JavaScript/1.JavaScript%E6%A0%B9%E5%9F%BA.html)
     - [x] 重构 3.JavaScript/[2.JavaScript深入](https://zhukunpenglinyutong.github.io/2.note/3.JavaScript/2.JavaScript深入.html)
     - [ ] 重构 3.JavaScript/3.JavaScript应用
