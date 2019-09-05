@@ -63,9 +63,9 @@ npm run build
     - [ ] 🔥重构 Vue系列（5.1MVVM框架Vue）
         - [x] [1.MVVM框架绪论](https://zhukunpenglinyutong.github.io/2.note/5.1MVVM%E6%A1%86%E6%9E%B6%EF%BC%88Vue%EF%BC%89/1.MVVM%E6%A1%86%E6%9E%B6%E7%BB%AA%E8%AE%BA.html)
         - [x] [2.Vue基础](https://zhukunpenglinyutong.github.io/2.note/5.1MVVM%E6%A1%86%E6%9E%B6%EF%BC%88Vue%EF%BC%89/2.Vue%E5%9F%BA%E7%A1%80.html)
-        - [ ] 3.Vue全家桶
-            - [ ] ⚽️第一部分：Vue-Cli
-            - [ ] 🏀第二部分：Vue-Router
+        - [ ] [3.Vue全家桶](https://zhukunpenglinyutong.github.io/2.note/5.1MVVM%E6%A1%86%E6%9E%B6%EF%BC%88Vue%EF%BC%89/3.Vue%E5%85%A8%E5%AE%B6%E6%A1%B6.html)
+            - [x] ⚽️第一部分：Vue-Cli
+            - [x] 🏀第二部分：Vue-Router
             - [ ] 🏈第三部分：Axios
             - [ ] ⚾️第四部分：Vuex
             - [ ] 🎾第五部分：Vue测试（Jest）
@@ -79,6 +79,7 @@ npm run build
     - [x] 重构 3.JavaScript/[2.JavaScript深入](https://zhukunpenglinyutong.github.io/2.note/3.JavaScript/2.JavaScript深入.html)
     - [ ] 重构 3.JavaScript/3.JavaScript应用
     - [x] 重构 6.移动端/[2.微信小程序](https://zhukunpenglinyutong.github.io/2.note/6.%E7%A7%BB%E5%8A%A8%E7%AB%AF/2.%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F.html)
+    - [x] 8.2前端安全/[2.前端基本防护](https://zhukunpenglinyutong.github.io/2.note/8.2%20%E5%89%8D%E7%AB%AF%E5%AE%89%E5%85%A8/2.%E5%89%8D%E7%AB%AF%E5%9F%BA%E6%9C%AC%E9%98%B2%E6%8A%A4.html)
     - [ ] 重构 8.1前端工程化/[1.Webpack](https://zhukunpenglinyutong.github.io/2.note/8.1%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%8C%96/1.Webpack.html)
         - [x] 🗂第一部分webpack初步探索
         - [x] 📕第二部分：loader
@@ -90,12 +91,6 @@ npm run build
         - [x] ⛄️第一部分：Jest基础
         - [x] 💦第二部分：Jest中的日常使用
         - [ ] ...
-    - [ ] 8.2前端安全/[2.前端基本防护](https://zhukunpenglinyutong.github.io/2.note/8.2%20%E5%89%8D%E7%AB%AF%E5%AE%89%E5%85%A8/2.%E5%89%8D%E7%AB%AF%E5%9F%BA%E6%9C%AC%E9%98%B2%E6%8A%A4.html)
-        - [x] 🍏第一种：SQL注入
-        - [x] 🍐第二种：XSS
-        - [ ] 🍊第三种：CSRF
-        - [ ] 🍈第四种：DDOS
-        - [ ] 🌶第五种：HTTP劫持
 
 [更多计划，和详细进度，请查看](https://github.com/zhukunpenglinyutong/notes/blob/master/Plan.md)
 
