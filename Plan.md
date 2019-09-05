@@ -96,13 +96,19 @@
 - [ ] 4.jQuery及其周边库
 - [ ] 5.1MVVM框架（Vue）
     - [x] 1.MVVM框架绪论
-    - [ ] 2.Vue基本使用
+    - [x] [2.Vue基本使用](https://zhukunpenglinyutong.github.io/2.note/5.1MVVM%E6%A1%86%E6%9E%B6%EF%BC%88Vue%EF%BC%89/2.Vue%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.html)
         - [x] 🥜第一部分：前言
         - [x] 🍯第二部分：Vue基础
         - [x] 🍖第三部分：Vue进阶
-        - [ ] 🍔第四部分：Vue组件
-        - [ ] 🥒第五部分：Vue-Cli
+        - [x] 🍔第四部分：Vue组件
     - [ ] 3.Vue全家桶使用
+        - [ ] ⚽️第一部分：Vue-Cli
+        - [ ] 🏀第二部分：Vue-Router
+        - [ ] 🏈第三部分：Axios
+        - [ ] ⚾️第四部分：Vuex
+        - [ ] 🎾第五部分：Vue测试（Jest）
+        - [ ] 🎱第六部分：Vue测试（mocha）
+        - [ ] ⛳️第七部分：UI组件库（Element）
     - [ ] 4.Vue源码解析以及实现
     - [ ] 5.VueRouter源码解析以及实现
     - [ ] 6.Vuex源码解析以及实现
