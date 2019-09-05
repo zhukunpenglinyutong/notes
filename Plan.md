@@ -101,6 +101,13 @@
         - [x] 🐲第零章：综合应用
         - [x] 🌴第五章：函数（Function）
         - [ ] ...
+    - [ ] 4.ES6
+    - [ ] 5.Underscore库源码分析
+    - [ ] 6.Lodashjs库源码分析
+    - [ ] 7.函数式编程
+    - [ ] 8.TypeScript
+        - [x] 🐬第一部分：TypeScript介绍
+        - [ ] 🐌第二部分：TypeScript基础
 - [ ] 4.jQuery及其周边库
     - [ ] 1.jQuery基础
     - [ ] 2.jQuery第三方库
