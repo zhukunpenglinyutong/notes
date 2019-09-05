@@ -66,11 +66,7 @@ npm run build
     - [ ] 🔥重构 CSS系列
         - [ ] 1.CSS基础
         - [ ] 2.CSS3
-        - [x] 3.现代化CSS
-            - [x] 🐲第一部分：前处理器 & 后处理器
-            - [x] 🍀第二部分：CSS分层 & 面向对象
-            - [x] 🎋第三部分：CSS Houdini
-            - [x] 🌱第四部分：CSS与数学
+        - [x] [3.现代化CSS](https://zhukunpenglinyutong.github.io/2.note/2.CSS/3.%E7%8E%B0%E4%BB%A3%E5%8C%96CSS.html)
     - [ ] 🔥重构 Vue系列（5.1MVVM框架Vue）
         - [x] [1.MVVM框架绪论](https://zhukunpenglinyutong.github.io/2.note/5.1MVVM%E6%A1%86%E6%9E%B6%EF%BC%88Vue%EF%BC%89/1.MVVM%E6%A1%86%E6%9E%B6%E7%BB%AA%E8%AE%BA.html)
         - [x] [2.Vue基础](https://zhukunpenglinyutong.github.io/2.note/5.1MVVM%E6%A1%86%E6%9E%B6%EF%BC%88Vue%EF%BC%89/2.Vue%E5%9F%BA%E7%A1%80.html)

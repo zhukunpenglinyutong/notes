@@ -54,8 +54,7 @@
     - [ ] 6.数据结构，设计模式，算法部分 
     - [ ] 7.现代前端部分
 
-## 前端体系部分完成情况（结构不会大变）
-
+## 前端体系部分完成情况（目录结构梳理完成）
 
 - [ ] 1.HTML
     - [ ] 1.HTML基础
@@ -63,7 +62,7 @@
 - [ ] 2.CSS
     - [ ] 1.CSS基础
     - [ ] 2.CSS3
-    - [x] 3.现代化CSS
+    - [x] [3.现代化CSS](https://zhukunpenglinyutong.github.io/2.note/2.CSS/3.%E7%8E%B0%E4%BB%A3%E5%8C%96CSS.html)
         - [x] 🐲第一部分：前处理器 & 后处理器
         - [x] 🍀第二部分：CSS分层 & 面向对象
         - [x] 🎋第三部分：CSS Houdini
@@ -103,6 +102,9 @@
         - [x] 🌴第五章：函数（Function）
         - [ ] ...
 - [ ] 4.jQuery及其周边库
+    - [ ] 1.jQuery基础
+    - [ ] 2.jQuery第三方库
+    - [ ] 3.jQuery源码解析以及实现
 - [ ] 5.1MVVM框架（Vue）
     - [x] [1.MVVM框架绪论](https://zhukunpenglinyutong.github.io/2.note/5.1MVVM%E6%A1%86%E6%9E%B6%EF%BC%88Vue%EF%BC%89/1.MVVM%E6%A1%86%E6%9E%B6%E7%BB%AA%E8%AE%BA.html)
         - [x] 🐣第一部分：MVVM的前世今生
@@ -124,6 +126,8 @@
     - [ ] 6.Vuex源码解析以及实现
     - [ ] 7.Axios源码解析以及实现
 - [ ] 5.2MVVM框架（React）
+    - [ ] 1.React基础
+    - [ ] 2.React全家桶
 - [ ] 6.移动端
     - [ ] 1.HTML5混生开发
     - [x] [2.微信小程序](https://zhukunpenglinyutong.github.io/2.note/6.%E7%A7%BB%E5%8A%A8%E7%AB%AF/2.%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F.html)
@@ -141,8 +145,15 @@
         - [ ] 🕊第十二部分：微信小程序项目实践
     - [ ] 3.Flutter
     - [ ] 4.React-Native
+    - [ ] 5.移动端原生开发
 - [ ] 7.Node
+    - [ ] 1.Node绪论
+    - [ ] 2.原生Node
+    - [ ] 3.Express框架
+    - [ ] 4.Koa2框架
+    - [ ] 5.Egg框架
 - [ ] 8.0网络
+    - [ ] 1.网络基础
 - [ ] 8.1前端工程化
     - [ ] [1.Webpack](https://zhukunpenglinyutong.github.io/2.note/8.1%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%8C%96/1.Webpack.html)
         - [x] 🗂第一部分webpack初步探索
@@ -164,6 +175,7 @@
         - [x] 🍈第四种：DDOS
         - [x] 🌶第五种：HTTP劫持
 - [ ] 8.3前端性能优化
+    - [ ] 1.前端性能优化基础
 - [ ] 8.4前端代码质量
     - [ ] 1.ESLint
     - [ ] [2.前端测试框架Jest](https://zhukunpenglinyutong.github.io/2.note/8.4%E5%89%8D%E7%AB%AF%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/2.%E5%89%8D%E7%AB%AF%E6%B5%8B%E8%AF%95%E6%A1%86%E6%9E%B6Jest.html#%E2%9B%84%EF%B8%8F%E7%AC%AC%E4%B8%80%E9%83%A8%E5%88%86%EF%BC%9Ajest%E5%9F%BA%E7%A1%80)
@@ -171,6 +183,18 @@
         - [x] 💦第二部分：Jest中的日常使用
         - [ ] ...
     - [ ] 3.自动化测试
+    - [ ] 4.项目质量检测
 - [ ] 8.5运维
+    - [ ] 1.Liunx知识
+    - [ ] 2.容器化
+    - [ ] 3.集成测试
 - [ ] 8.6前端架构
+    - [ ] 1.前端架构
+        - [ ] 🌽第一部分：Cli全栈化
+        - [ ] 🥐第二部分：智能容灾
+        - [ ] 🍯第三部分：多端统一框架
+        - [ ] 🌮第四部分：大中台
+        - [ ] 🍳第五部分：智能部署，智能发布
+        - [ ] 🍔第六部分：无痕埋点
+        - [ ] 🥑第七部分：可视化搭建
 - [ ] 9.项目
