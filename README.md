@@ -60,6 +60,17 @@ npm run build
 ### 🏆近期计划
 
 - [ ] 前端体系（note）
+    - [ ] 🔥重构 HTML系列
+        - [ ] 1.HTML基础
+        - [ ] 2.HTML5
+    - [ ] 🔥重构 CSS系列
+        - [ ] 1.CSS基础
+        - [ ] 2.CSS3
+        - [x] 3.现代化CSS
+            - [x] 🐲第一部分：前处理器 & 后处理器
+            - [x] 🍀第二部分：CSS分层 & 面向对象
+            - [x] 🎋第三部分：CSS Houdini
+            - [x] 🌱第四部分：CSS与数学
     - [ ] 🔥重构 Vue系列（5.1MVVM框架Vue）
         - [x] [1.MVVM框架绪论](https://zhukunpenglinyutong.github.io/2.note/5.1MVVM%E6%A1%86%E6%9E%B6%EF%BC%88Vue%EF%BC%89/1.MVVM%E6%A1%86%E6%9E%B6%E7%BB%AA%E8%AE%BA.html)
         - [x] [2.Vue基础](https://zhukunpenglinyutong.github.io/2.note/5.1MVVM%E6%A1%86%E6%9E%B6%EF%BC%88Vue%EF%BC%89/2.Vue%E5%9F%BA%E7%A1%80.html)
@@ -75,11 +86,12 @@ npm run build
         - [ ] 5.VueRouter源码解析以及实现
         - [ ] 6.Vuex源码解析以及实现
         - [ ] 7.Axios源码解析以及实现
-    - [x] 重构 3.JavaScript/[1.JavaScript根基](https://zhukunpenglinyutong.github.io/2.note/3.JavaScript/1.JavaScript%E6%A0%B9%E5%9F%BA.html)
-    - [x] 重构 3.JavaScript/[2.JavaScript深入](https://zhukunpenglinyutong.github.io/2.note/3.JavaScript/2.JavaScript深入.html)
-    - [ ] 重构 3.JavaScript/3.JavaScript应用
+    - [ ] 🔥重构 JavaScript系列
+        - [x] 重构 [1.JavaScript根基](https://zhukunpenglinyutong.github.io/2.note/3.JavaScript/1.JavaScript%E6%A0%B9%E5%9F%BA.html)
+        - [x] 重构 [2.JavaScript深入](https://zhukunpenglinyutong.github.io/2.note/3.JavaScript/2.JavaScript深入.html)
+        - [ ] 重构 3.JavaScript应用
     - [x] 重构 6.移动端/[2.微信小程序](https://zhukunpenglinyutong.github.io/2.note/6.%E7%A7%BB%E5%8A%A8%E7%AB%AF/2.%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F.html)
-    - [x] 8.2前端安全/[2.前端基本防护](https://zhukunpenglinyutong.github.io/2.note/8.2%20%E5%89%8D%E7%AB%AF%E5%AE%89%E5%85%A8/2.%E5%89%8D%E7%AB%AF%E5%9F%BA%E6%9C%AC%E9%98%B2%E6%8A%A4.html)
+    - [x] 重构 8.2前端安全/[2.前端基本防护](https://zhukunpenglinyutong.github.io/2.note/8.2%20%E5%89%8D%E7%AB%AF%E5%AE%89%E5%85%A8/2.%E5%89%8D%E7%AB%AF%E5%9F%BA%E6%9C%AC%E9%98%B2%E6%8A%A4.html)
     - [ ] 重构 8.1前端工程化/[1.Webpack](https://zhukunpenglinyutong.github.io/2.note/8.1%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%8C%96/1.Webpack.html)
         - [x] 🗂第一部分webpack初步探索
         - [x] 📕第二部分：loader
