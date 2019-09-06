@@ -57,12 +57,12 @@
 ## 前端体系部分完成情况（目录结构梳理完成）
 
 - [ ] 1.HTML
-    - [ ] [1.HTML基础](https://zhukunpenglinyutong.github.io/2.note/1.HTML/1.HTML%E5%9F%BA%E7%A1%80.html)
+    - [x] [1.HTML基础](https://zhukunpenglinyutong.github.io/2.note/1.HTML/1.HTML%E5%9F%BA%E7%A1%80.html)
         - [x] 🍚第一部分：HTML基本结构
         - [x] 🍦第二部分：HTML常用标签
         - [x] 🍩第三部分：路径 & 锚点定位
-        - [ ] 🍪第四部分：表格 & 列表
-        - [ ] 🍺第五部分：表单
+        - [x] 🍪第四部分：表格 & 列表
+        - [x] 🍺第五部分：表单
         - [x] 🍹第六部分：自己对HTML的一些胡思乱想
     - [ ] 2.HTML5
 - [ ] 2.CSS
