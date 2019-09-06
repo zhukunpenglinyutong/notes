@@ -1,60 +1,4 @@
-## 速查部分完成情况（结构不会大变）
-
-- [ ] 1.前端
-    - [x] [1.HTML和HTML5速查](https://zhukunpenglinyutong.github.io/1.quickcheck/1.%E5%89%8D%E7%AB%AF/1.HTML%E5%92%8CHTML5.html)
-        - [x] 🌵常用的HTML标签，和常见的概念和用法
-        - [x] 🎄Canvas
-        - [x] 🌲websocket
-        - [x] 🌳本地存储
-        - [ ] 🌴地理定位
-        - [x] 🌱HTML5视频标签（video）&& 音频标签（audio）
-        - [ ] 🌿Web工作线程
-        - [x] 🍃其他内容补充
-    - [ ] 2.CSS和CSS3速查
-    - [x] [3.JavaScript速查](https://zhukunpenglinyutong.github.io/1.quickcheck/1.%E5%89%8D%E7%AB%AF/2.JS%E6%96%B9%E6%B3%95%E9%80%9F%E6%9F%A5.html)
-        - [x] 🌲数组
-        - [x] 🕰时间
-        - [x] 👫对象
-        - [x] 🌴DOM
-        - [x] 🌱BOM
-        - [x] 💍处理JS原生具有的一些问题
-        - [x] 🙏其他
-    - [ ] 4.jQuery及其周边库速查
-    - [ ] 5.Vue全家桶速查
-    - [ ] 6.React全家桶速查
-    - [ ] 7.微信小程序速查
-    - [ ] 8.移动端其他速查
-- [ ] 2.后端
-    - [ ] 1.Node原生速查
-    - [ ] 2.Node第三方库速查
-    - [ ] 3.数据库速查
-    - [ ] 4.后端常用套路速查
-- [ ] 3.运维
-    - [ ] 1.各个平台软件安装，与使用
-    - [ ] 2.Liunx速查
-    - [ ] 3.容器化技术速查
-    - [ ] 4.DevOps实践速查
-    - [ ] 5.其他速查
-- [ ] 4.计算机基础知识
-    - [ ] 1.计算机组成原理速查
-    - [ ] 2.计算机网络速查
-    - [ ] 3.数据结构和算法和设计模式速查
-    - [ ] 4.编译原理速查
-- [ ] 5.其他
-    - [ ] 1.Git及其周边速查
-    - [ ] 2.前端安全速查
-    - [ ] 3.第三方库速查（VuePress速查）
-    - [ ] 4.常用网址
-- [ ] 6.面试题
-    - [ ] 1.HTML部分 
-    - [ ] 2.CSS部分
-    - [ ] 3.JS部分
-    - [ ] 4.框架部分
-    - [ ] 5.计算机基础部分
-    - [ ] 6.数据结构，设计模式，算法部分 
-    - [ ] 7.现代前端部分
-
-## 前端体系部分完成情况（目录结构梳理完成）
+## 前端体系完成情况（目录结构梳理完成）
 
 - [ ] 1.HTML
     - [x] [1.HTML基础](https://zhukunpenglinyutong.github.io/2.note/1.HTML/1.HTML%E5%9F%BA%E7%A1%80.html)
@@ -66,13 +10,22 @@
         - [x] 🍹第六部分：自己对HTML的一些胡思乱想
     - [ ] 2.HTML5
 - [ ] 2.CSS
-    - [ ] 1.CSS基础
+    - [ ] [1.CSS基础](https://zhukunpenglinyutong.github.io/2.note/2.CSS/1.CSS%E5%9F%BA%E7%A1%80.html)
+        - [x] 🌎第一部分：CSS入门
+        - [x] 🌝第二部分：CSS外观样式
+        - [ ] 🌛第三部分：CSS背景及应用
+        - [ ] 🌙第四部分：标签显示模式 & CSS盒模型
+        - [ ] ⭐️第五部分：CSS三大特性
+        - [ ] 🌟第六部分：浮动 & 清除浮动
+        - [ ] 💫第七部分：定位
+        - [ ] ✨第八部分：其他
     - [ ] 2.CSS3
     - [x] [3.现代化CSS](https://zhukunpenglinyutong.github.io/2.note/2.CSS/3.%E7%8E%B0%E4%BB%A3%E5%8C%96CSS.html)
         - [x] 🐲第一部分：前处理器 & 后处理器
         - [x] 🍀第二部分：CSS分层 & 面向对象
         - [x] 🎋第三部分：CSS Houdini
         - [x] 🌱第四部分：CSS与数学
+    - [ ] 4.CSS应用
 - [ ] 3.JavaScript
     - [ ] [1.JavaScript根基](https://zhukunpenglinyutong.github.io/2.note/3.JavaScript/1.JavaScript根基.html)
         - [x] 🐲第零章：JavaScript简介
@@ -211,3 +164,63 @@
         - [ ] 🍔第六部分：无痕埋点
         - [ ] 🥑第七部分：可视化搭建
 - [ ] 9.项目
+
+
+---
+
+
+## 速查完成情况（结构不会大变）
+
+- [ ] 1.前端
+    - [x] [1.HTML和HTML5速查](https://zhukunpenglinyutong.github.io/1.quickcheck/1.%E5%89%8D%E7%AB%AF/1.HTML%E5%92%8CHTML5.html)
+        - [x] 🌵常用的HTML标签，和常见的概念和用法
+        - [x] 🎄Canvas
+        - [x] 🌲websocket
+        - [x] 🌳本地存储
+        - [ ] 🌴地理定位
+        - [x] 🌱HTML5视频标签（video）&& 音频标签（audio）
+        - [ ] 🌿Web工作线程
+        - [x] 🍃其他内容补充
+    - [ ] 2.CSS和CSS3速查
+    - [x] [3.JavaScript速查](https://zhukunpenglinyutong.github.io/1.quickcheck/1.%E5%89%8D%E7%AB%AF/2.JS%E6%96%B9%E6%B3%95%E9%80%9F%E6%9F%A5.html)
+        - [x] 🌲数组
+        - [x] 🕰时间
+        - [x] 👫对象
+        - [x] 🌴DOM
+        - [x] 🌱BOM
+        - [x] 💍处理JS原生具有的一些问题
+        - [x] 🙏其他
+    - [ ] 4.jQuery及其周边库速查
+    - [ ] 5.Vue全家桶速查
+    - [ ] 6.React全家桶速查
+    - [ ] 7.微信小程序速查
+    - [ ] 8.移动端其他速查
+- [ ] 2.后端
+    - [ ] 1.Node原生速查
+    - [ ] 2.Node第三方库速查
+    - [ ] 3.数据库速查
+    - [ ] 4.后端常用套路速查
+- [ ] 3.运维
+    - [ ] 1.各个平台软件安装，与使用
+    - [ ] 2.Liunx速查
+    - [ ] 3.容器化技术速查
+    - [ ] 4.DevOps实践速查
+    - [ ] 5.其他速查
+- [ ] 4.计算机基础知识
+    - [ ] 1.计算机组成原理速查
+    - [ ] 2.计算机网络速查
+    - [ ] 3.数据结构和算法和设计模式速查
+    - [ ] 4.编译原理速查
+- [ ] 5.其他
+    - [ ] 1.Git及其周边速查
+    - [ ] 2.前端安全速查
+    - [ ] 3.第三方库速查（VuePress速查）
+    - [ ] 4.常用网址
+- [ ] 6.面试题
+    - [ ] 1.HTML部分 
+    - [ ] 2.CSS部分
+    - [ ] 3.JS部分
+    - [ ] 4.框架部分
+    - [ ] 5.计算机基础部分
+    - [ ] 6.数据结构，设计模式，算法部分 
+    - [ ] 7.现代前端部分

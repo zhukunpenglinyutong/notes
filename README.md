@@ -64,7 +64,15 @@ npm run build
         - [x] [1.HTML基础](https://zhukunpenglinyutong.github.io/2.note/1.HTML/1.HTML%E5%9F%BA%E7%A1%80.html)
         - [ ] 2.HTML5
     - [ ] 🔥重构 CSS系列
-        - [ ] 1.CSS基础
+        - [ ] [1.CSS基础](https://zhukunpenglinyutong.github.io/2.note/2.CSS/1.CSS%E5%9F%BA%E7%A1%80.html)
+            - [x] 🌎第一部分：CSS入门
+            - [x] 🌝第二部分：CSS外观样式
+            - [ ] 🌛第三部分：CSS背景及应用
+            - [ ] 🌙第四部分：标签显示模式 & CSS盒模型
+            - [ ] ⭐️第五部分：CSS三大特性
+            - [ ] 🌟第六部分：浮动 & 清除浮动
+            - [ ] 💫第七部分：定位
+            - [ ] ✨第八部分：其他
         - [ ] 2.CSS3
         - [x] [3.现代化CSS](https://zhukunpenglinyutong.github.io/2.note/2.CSS/3.%E7%8E%B0%E4%BB%A3%E5%8C%96CSS.html)
     - [ ] 🔥重构 Vue系列（5.1MVVM框架Vue）
