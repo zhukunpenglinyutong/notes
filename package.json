@@ -11,7 +11,7 @@
     "build": "vpe build"
   },
   "dependencies": {
-    "vuepress-es": "^1.1.9"
+    "vuepress-es": "^1.2.1"
   },
   "devDependencies": {},
   "repository": {

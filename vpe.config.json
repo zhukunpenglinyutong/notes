@@ -4,7 +4,7 @@
     // 首页头像下面标题的解释
     "description": "知识速查（了不起的个人工具库）",
     // 右上角 跳转GitHub的地址（写一个GitHub项目地址）
-    "repo": "https://github.com/itz2019/vuepress-es",
+    "repo": "https://github.com/zhukunpenglinyutong/notes",
 
     // 设置侧边栏是否全部默认展开（一般官方介绍经常使用这个）
     "collapsable": true, // 注意：false 是展开，true 是不展开
