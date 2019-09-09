@@ -11,6 +11,10 @@
 
 ---
 
+**注意：本项目vuepress的配置工作， 已经转为 [vuepress-es](https://www.npmjs.com/package/vuepress-es) npm包 自动生成，已经删除 app.js Node 处理函数**
+
+---
+
 ## 🏅前言
 
 这几天在重构此项目，优化体验，因为以前都是工作的时候，有收获的，能提交的话，很快的提交，内容没有润色，结构比较混乱，正好最近辞职没事，还没有面试机会，就想拿出时间进行优化一下吧
@@ -37,14 +41,14 @@ git clone https://github.com/zhukunpenglinyutong/notes.git
 npm install
 
 # 预览，VuePress会启动一个预览的网址
-npm run dev
+npm run serve
 
-# 打包，打包后资源在 docs/.vuepress/dist下
+# 打包，打包后资源在 build/.vuepress/dist下
 npm run build
 
 ```
 
-[构建说明，为什么首页的几个文件夹，就能生成网站？而不用配置VuePress？（书写中...）]()
+[构建说明，为什么首页的几个文件夹，就能生成网站？而不用配置VuePress？ 因为我封装了一个NPM工具...vuepress-es](https://www.npmjs.com/package/vuepress-es)
 
 ---
 
@@ -53,7 +57,6 @@ npm run build
 - **1.quickcheck**：放着系统性的知识笔记系统，可以快速查阅内容，极大的提高开发效率（内容重构中）
 - **2.note**：系统化的前端笔记（作者目前所能大致掌握的所有内容）（内容重构中）
 - **3.other**：作者个人杂项（如果有兴趣相同的，可以一起交流哦）
-- **app.js**：遍历目录的文件，生成能让 VuePress 识别的配置文件
 
 ---
 

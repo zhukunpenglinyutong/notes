@@ -7,11 +7,11 @@
     "doc": "docs"
   },
   "scripts": {
-    "dev": "node app.js; vuepress dev docs",
-    "build": "node app.js; vuepress build docs"
+    "serve": "vpe serve",
+    "build": "vpe build"
   },
   "dependencies": {
-    "vuepress": "^0.14.11"
+    "vuepress-es": "^1.1.9"
   },
   "devDependencies": {},
   "repository": {
