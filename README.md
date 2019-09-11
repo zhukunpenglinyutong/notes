@@ -25,8 +25,8 @@
 
 此网站更佳的查阅体验，请访问 
 
-- [自己服务器托管的-Notes](https://notes.itzkp.com)
-- [GitHub托管的-Notes](https://zhukunpenglinyutong.github.io/)
+- [自己服务器托管的-Notes（最近更新：2019.9.10）](https://notes.itzkp.com)
+- [GitHub托管的-Notes（最近更新：2019.9.11 下午）](https://zhukunpenglinyutong.github.io/)
 
 ---
 
@@ -67,7 +67,7 @@ npm run build
 
 ### 🏆近期计划
 
-> 主要归并：H5 和 移动端 部分
+> 2019.9.11日起 主要归并：H5 和 移动端 部分
 
 - [ ] 前端体系（note）
     - [ ] 🔥重构 HTML系列
