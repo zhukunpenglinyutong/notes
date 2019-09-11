@@ -86,14 +86,7 @@ npm run build
     - [ ] 🔥重构 Vue系列（5.1MVVM框架Vue）
         - [x] [1.MVVM框架绪论](https://zhukunpenglinyutong.github.io/2.note/5.1MVVM%E6%A1%86%E6%9E%B6%EF%BC%88Vue%EF%BC%89/1.MVVM%E6%A1%86%E6%9E%B6%E7%BB%AA%E8%AE%BA.html)
         - [x] [2.Vue基础](https://zhukunpenglinyutong.github.io/2.note/5.1MVVM%E6%A1%86%E6%9E%B6%EF%BC%88Vue%EF%BC%89/2.Vue%E5%9F%BA%E7%A1%80.html)
-        - [ ] [3.Vue全家桶](https://zhukunpenglinyutong.github.io/2.note/5.1MVVM%E6%A1%86%E6%9E%B6%EF%BC%88Vue%EF%BC%89/3.Vue%E5%85%A8%E5%AE%B6%E6%A1%B6.html)
-            - [x] ⚽️第一部分：Vue-Cli
-            - [x] 🏀第二部分：Vue-Router
-            - [ ] 🏈第三部分：Axios
-            - [x] ⚾️第四部分：Vuex
-            - [ ] 🎾第五部分：Vue测试（Jest）
-            - [ ] 🎱第六部分：Vue测试（mocha）
-            - [ ] ⛳️第七部分：UI组件库（Element）
+        - [x] [3.Vue全家桶](https://zhukunpenglinyutong.github.io/2.note/5.1MVVM%E6%A1%86%E6%9E%B6%EF%BC%88Vue%EF%BC%89/3.Vue%E5%85%A8%E5%AE%B6%E6%A1%B6.html)
         - [ ] 4.Vue源码解析以及实现
         - [ ] 5.VueRouter源码解析以及实现
         - [ ] 6.Vuex源码解析以及实现
