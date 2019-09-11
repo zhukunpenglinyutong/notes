@@ -21,7 +21,12 @@
 
 之前的结构是很乱，只能我自己看懂（我是这么认为的），但是有了这个网站，也节省了我70%以上的时间了，我觉得优化一下，也是很有必要的
 
-此网站更佳的查阅体验，请访问 [Notes网址](https://zhukunpenglinyutong.github.io/)
+整理工作是先从 前端体系进行，然后在结束或者过程中，逐渐优化 速查部分
+
+此网站更佳的查阅体验，请访问 
+
+- [自己服务器托管的-Notes](https://notes.itzkp.com)
+- [GitHub托管的-Notes](https://zhukunpenglinyutong.github.io/)
 
 ---
 
@@ -98,8 +103,7 @@ npm run build
         - [x] 重构 [2.JavaScript深入](https://zhukunpenglinyutong.github.io/2.note/3.JavaScript/2.JavaScript深入.html)
         - [ ] 重构 3.JavaScript应用
     - [x] 重构 6.移动端/[2.微信小程序](https://zhukunpenglinyutong.github.io/2.note/6.%E7%A7%BB%E5%8A%A8%E7%AB%AF/2.%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F.html)
-    - [x] 8.0网络/1.前端网络基础
-    - [x] 重构 8.2前端安全/[2.前端基本防护](https://zhukunpenglinyutong.github.io/2.note/8.2%20%E5%89%8D%E7%AB%AF%E5%AE%89%E5%85%A8/2.%E5%89%8D%E7%AB%AF%E5%9F%BA%E6%9C%AC%E9%98%B2%E6%8A%A4.html)
+    - [x] 8.0网络/[1.前端网络基础](https://zhukunpenglinyutong.github.io/2.note/8.0%E7%BD%91%E7%BB%9C/1.%E5%89%8D%E7%AB%AF%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80.html)
     - [ ] 重构 8.1前端工程化/[1.Webpack](https://zhukunpenglinyutong.github.io/2.note/8.1%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%8C%96/1.Webpack.html)
         - [x] 🗂第一部分webpack初步探索
         - [x] 📕第二部分：loader
@@ -107,6 +111,7 @@ npm run build
         - [x] 📘第四部分：其他配置
         - [ ] 📙第五部分：webpack高级
         - [ ] ...
+     - [x] 重构 8.2前端安全/[2.前端基本防护](https://zhukunpenglinyutong.github.io/2.note/8.2%20%E5%89%8D%E7%AB%AF%E5%AE%89%E5%85%A8/2.%E5%89%8D%E7%AB%AF%E5%9F%BA%E6%9C%AC%E9%98%B2%E6%8A%A4.html)
     - [ ] 重构 8.4前端代码质量/[2.前端测试框架Jest](https://zhukunpenglinyutong.github.io/2.note/8.4%E5%89%8D%E7%AB%AF%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/2.%E5%89%8D%E7%AB%AF%E6%B5%8B%E8%AF%95%E6%A1%86%E6%9E%B6Jest.html#%E2%9B%84%EF%B8%8F%E7%AC%AC%E4%B8%80%E9%83%A8%E5%88%86%EF%BC%9Ajest%E5%9F%BA%E7%A1%80)
         - [x] ⛄️第一部分：Jest基础
         - [x] 💦第二部分：Jest中的日常使用
