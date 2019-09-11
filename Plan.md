@@ -83,7 +83,7 @@
         - [x] ⚽️第一部分：Vue-Cli
         - [x] 🏀第二部分：Vue-Router
         - [ ] 🏈第三部分：Axios
-        - [ ] ⚾️第四部分：Vuex
+        - [x] ⚾️第四部分：Vuex
         - [ ] 🎾第五部分：Vue测试（Jest）
         - [ ] 🎱第六部分：Vue测试（mocha）
         - [ ] ⛳️第七部分：UI组件库（Element）
