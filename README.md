@@ -98,6 +98,7 @@ npm run build
         - [x] 重构 [2.JavaScript深入](https://zhukunpenglinyutong.github.io/2.note/3.JavaScript/2.JavaScript深入.html)
         - [ ] 重构 3.JavaScript应用
     - [x] 重构 6.移动端/[2.微信小程序](https://zhukunpenglinyutong.github.io/2.note/6.%E7%A7%BB%E5%8A%A8%E7%AB%AF/2.%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F.html)
+    - [x] 8.0网络/1.前端网络基础
     - [x] 重构 8.2前端安全/[2.前端基本防护](https://zhukunpenglinyutong.github.io/2.note/8.2%20%E5%89%8D%E7%AB%AF%E5%AE%89%E5%85%A8/2.%E5%89%8D%E7%AB%AF%E5%9F%BA%E6%9C%AC%E9%98%B2%E6%8A%A4.html)
     - [ ] 重构 8.1前端工程化/[1.Webpack](https://zhukunpenglinyutong.github.io/2.note/8.1%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%8C%96/1.Webpack.html)
         - [x] 🗂第一部分webpack初步探索
