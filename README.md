@@ -26,7 +26,7 @@
 此网站更佳的查阅体验，请访问 
 
 - [自己服务器托管的-Notes（最近更新：2019.9.10）](https://notes.itzkp.com)
-- [GitHub托管的-Notes（最近更新：2019.9.11 下午）](https://zhukunpenglinyutong.github.io/)
+- [GitHub托管的-Notes（最近更新：2019.9.12 下午）](https://zhukunpenglinyutong.github.io/)
 
 ---
 
@@ -129,7 +129,7 @@ npm run build
 
 ## 👓 内推与招聘
 
-最近并没有明确的工作录取，所以还是无业状态，如果有朋友有内推机会，或者想进行招聘，可以联系我（WX:lyglyglyg666666）
+最近并没有明确的工作录取，所以还是无业状态，如果有朋友有内推机会，或者想进行招聘，可以联系我（微信见上图二维码）
 
 我不说我的优势，我说一下我的劣势：21岁，实际工作经验1年2个月，专科应届
 
@@ -137,8 +137,9 @@ npm run build
 
 并且一年之内 将会逐步实践 我觉得有价值的一套简单的前端体系  [具体可见-前端架构](https://zhukunpenglinyutong.github.io/2.note/8.6%E5%89%8D%E7%AB%AF%E6%9E%B6%E6%9E%84/1.%E5%89%8D%E7%AB%AF%E6%9E%B6%E6%9E%84.html)
 
-目前已实践：第一部分：Cli全栈化 下面的第一个模块 [vuepress-es](https://www.npmjs.com/package/vuepress-es)，是单纯的提高效率的工具链 没有 效率 + xxx，我也期待下一家公司的技术栈，想想就激动。
+目前已实践：第一部分：Cli全栈化 下面的第一个模块 [vuepress-es](https://www.npmjs.com/package/vuepress-es)，是单纯的提高效率的工具链 没有 效率 + xxx，我也期待下一家公司的技术栈，效率 + 下一家公司的技术栈，只需要一行命令就能做很多事情  想想就激动。
 
+这是之前的简历了 [个人简历下载](https://itzkp-1253302184.cos.ap-beijing.myqcloud.com/%E6%9C%B1%E6%98%86%E9%B9%8F%E7%AE%80%E5%8E%86%20web%E5%89%8D%E7%AB%AF.pdf)，现在的水平比那时候要好一些，但是用之前的简历也行，怎么说，不管是 内推 或者 招聘，我都不会让你失望，我不喜欢多说，我喜欢用以后的真实实践和真实付出来回报，不喜空话，如此就好。
 
 ---
 
