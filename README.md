@@ -70,14 +70,23 @@ npm run build
 > 2019.9.11日起 主要归并：H5 和 移动端 部分
 
 - [ ] 前端体系（note）
-    - [ ] 🔥重构 HTML系列
+    - [ ] 🔥6.移动端
+        - [x] [0.移动端开发绪论](https://zhukunpenglinyutong.github.io/2.note/6.%E7%A7%BB%E5%8A%A8%E7%AB%AF/0.移动端开发绪论.html)
+            - [x] ⏱第一部分：移动端发展历史
+            - [x] 📡第二部分：移动端技术发展历史
+            - [x] 📱第三部分：手机硬件组成
+        - [ ] 1.HTML5混生开发
+        - [x] [2.微信小程序](https://zhukunpenglinyutong.github.io/2.note/6.%E7%A7%BB%E5%8A%A8%E7%AB%AF/2.%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F.html)
+        - [ ] 3.Flutter
+        - [ ] 4.React-Native
+    - [ ] 1.HTML
         - [x] [1.HTML基础](https://zhukunpenglinyutong.github.io/2.note/1.HTML/1.HTML%E5%9F%BA%E7%A1%80.html)
         - [ ] 2.HTML5
-    - [ ] 🔥重构 CSS系列
+    - [ ] 2.CSS
         - [ ] [1.CSS基础](https://zhukunpenglinyutong.github.io/2.note/2.CSS/1.CSS%E5%9F%BA%E7%A1%80.html)
         - [ ] 2.CSS3
         - [x] [3.现代化CSS](https://zhukunpenglinyutong.github.io/2.note/2.CSS/3.%E7%8E%B0%E4%BB%A3%E5%8C%96CSS.html)
-    - [ ] 🔥重构 Vue系列（5.1MVVM框架Vue）
+    - [ ] 5.1MVVM框架Vue
         - [x] [1.MVVM框架绪论](https://zhukunpenglinyutong.github.io/2.note/5.1MVVM%E6%A1%86%E6%9E%B6%EF%BC%88Vue%EF%BC%89/1.MVVM%E6%A1%86%E6%9E%B6%E7%BB%AA%E8%AE%BA.html)
         - [x] [2.Vue基础](https://zhukunpenglinyutong.github.io/2.note/5.1MVVM%E6%A1%86%E6%9E%B6%EF%BC%88Vue%EF%BC%89/2.Vue%E5%9F%BA%E7%A1%80.html)
         - [x] [3.Vue全家桶](https://zhukunpenglinyutong.github.io/2.note/5.1MVVM%E6%A1%86%E6%9E%B6%EF%BC%88Vue%EF%BC%89/3.Vue%E5%85%A8%E5%AE%B6%E6%A1%B6.html)
@@ -85,11 +94,10 @@ npm run build
         - [ ] 5.VueRouter源码解析以及实现
         - [ ] 6.Vuex源码解析以及实现
         - [ ] 7.Axios源码解析以及实现
-    - [ ] 🔥重构 JavaScript系列
+    - [ ] 3.JavaScript
         - [x] 重构 [1.JavaScript根基](https://zhukunpenglinyutong.github.io/2.note/3.JavaScript/1.JavaScript%E6%A0%B9%E5%9F%BA.html)
         - [x] 重构 [2.JavaScript深入](https://zhukunpenglinyutong.github.io/2.note/3.JavaScript/2.JavaScript深入.html)
         - [ ] 重构 3.JavaScript应用
-    - [x] 重构 6.移动端/[2.微信小程序](https://zhukunpenglinyutong.github.io/2.note/6.%E7%A7%BB%E5%8A%A8%E7%AB%AF/2.%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F.html)
     - [x] 8.0网络/[1.前端网络基础](https://zhukunpenglinyutong.github.io/2.note/8.0%E7%BD%91%E7%BB%9C/1.%E5%89%8D%E7%AB%AF%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80.html)
     - [ ] 重构 8.1前端工程化/[1.Webpack](https://zhukunpenglinyutong.github.io/2.note/8.1%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%8C%96/1.Webpack.html)
         - [x] 🗂第一部分webpack初步探索
@@ -116,6 +124,21 @@ npm run build
 **个人微信，拜求指点，不胜感激**
 
 <img src="https://itzkp-1253302184.cos.ap-beijing.myqcloud.com/notes/%E5%85%B6%E4%BB%96/3.png">
+
+---
+
+## 👓 内推与招聘
+
+最近并没有明确的工作录取，所以还是无业状态，如果有朋友有内推机会，或者想进行招聘，可以联系我（WX:lyglyglyg666666）
+
+我不说我的优势，我说一下我的劣势：21岁，实际工作经验1年2个月，专科应届
+
+我只知道接下来的一年的第一个阶段，我将会更着重发展 效率 + xxx 的探索，这个 xxx 是 移动端，还是Node，还是其他，要取决于下一份工作的内容（精力不够，只能选择一个）
+
+并且一年之内 将会逐步实践 我觉得有价值的一套简单的前端体系  [具体可见-前端架构](https://zhukunpenglinyutong.github.io/2.note/8.6%E5%89%8D%E7%AB%AF%E6%9E%B6%E6%9E%84/1.%E5%89%8D%E7%AB%AF%E6%9E%B6%E6%9E%84.html)
+
+目前已实践：第一部分：Cli全栈化 下面的第一个模块 [vuepress-es](https://www.npmjs.com/package/vuepress-es)，是单纯的提高效率的工具链 没有 效率 + xxx，我也期待下一家公司的技术栈，想想就激动。
+
 
 ---
 

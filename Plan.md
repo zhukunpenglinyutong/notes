@@ -95,6 +95,10 @@
     - [ ] 1.React基础
     - [ ] 2.React全家桶
 - [ ] 6.移动端
+    - [x] 0.移动端开发绪论
+        - [x] ⏱第一部分：移动端发展历史
+        - [x] 📡第二部分：移动端技术发展历史
+        - [x] 📱第三部分：手机硬件组成
     - [ ] 1.HTML5混生开发
     - [x] [2.微信小程序](https://zhukunpenglinyutong.github.io/2.note/6.%E7%A7%BB%E5%8A%A8%E7%AB%AF/2.%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F.html)
         - [x] 🐇第一部分：微信小程序核心理念，以及基础开发介绍
