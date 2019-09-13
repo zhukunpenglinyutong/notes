@@ -1,4 +1,4 @@
-## 前端体系完成情况（目录结构梳理完成）
+## 前端体系完成情况（结构梳理完成）
 
 - [ ] 1.HTML
     - [x] [1.HTML基础](https://zhukunpenglinyutong.github.io/2.note/1.HTML/1.HTML%E5%9F%BA%E7%A1%80.html)
@@ -179,20 +179,22 @@
 ---
 
 
-## 速查完成情况（结构不会大变）
+## 速查完成情况（结构尚未梳理完成）
 
-- [ ] 1.前端
+- [ ] 1.前端（体系大致调整完成）
     - [x] [1.HTML和HTML5速查](https://zhukunpenglinyutong.github.io/1.quickcheck/1.%E5%89%8D%E7%AB%AF/1.HTML%E5%92%8CHTML5.html)
-        - [x] 🌵常用的HTML标签，和常见的概念和用法
-        - [x] 🎄Canvas
-        - [x] 🌲websocket
-        - [x] 🌳本地存储
-        - [ ] 🌴地理定位
-        - [x] 🌱HTML5视频标签（video）&& 音频标签（audio）
-        - [ ] 🌿Web工作线程
-        - [x] 🍃其他内容补充
+        - [x] 🌵第一部分：常用的HTML标签，和常见的概念和用法
+        - [x] 🎄第二部分：Canvas
+        - [x] 🌲第三部分：websocket
+        - [x] 🌳第四部分：本地存储
+        - [ ] 🌴第五部分：地理定位
+        - [x] 🌱第六部分：HTML5视频标签（video）&& 音频标签（audio）
+        - [ ] 🌿第七部分：Web工作线程
+        - [x] 🍃第八部分：其他内容补充
     - [ ] 2.CSS和CSS3速查
-    - [x] [3.JavaScript速查](https://zhukunpenglinyutong.github.io/1.quickcheck/1.%E5%89%8D%E7%AB%AF/2.JS%E6%96%B9%E6%B3%95%E9%80%9F%E6%9F%A5.html)
+        - [x] 🕊第一部分：常用布局
+        - [x] 🐑第二部分：常用样式
+    - [x] [3.JS方法速查](https://zhukunpenglinyutong.github.io/1.quickcheck/1.%E5%89%8D%E7%AB%AF/2.JS%E6%96%B9%E6%B3%95%E9%80%9F%E6%9F%A5.html)
         - [x] 🌲数组
         - [x] 🕰时间
         - [x] 👫对象
@@ -201,10 +203,28 @@
         - [x] 💍处理JS原生具有的一些问题
         - [x] 🙏其他
     - [ ] 4.jQuery及其周边库速查
-    - [ ] 5.Vue全家桶速查
-    - [ ] 6.React全家桶速查
-    - [ ] 7.微信小程序速查
-    - [ ] 8.移动端其他速查
+        - [ ] 🐣第一部分：jQuery
+        - [ ] 🦁第二部分：jQuery系列库（Bootstrap）
+    - [ ] 5.MVVM框架速查（Vue）
+        - [ ] 🐢第一部分：Vue
+        - [ ] 🦀第二部分：Vue
+        - [ ] 🐟第三部分：Axios
+        - [ ] 🐡第四部分：Vue
+        - [ ] 🐬第五部分：Vuex
+        - [ ] 🦐第六部分：Element.ui
+    - [ ] 6.移动端速查
+        - [ ] 🐂第一部分：HTML5混生开发
+        - [ ] 🐪第二部分：微信小程序
+        - [ ] 🦏第三部分：Flutter
+        - [ ] 🐘第四部分：React-Native
+        - [ ] 🐑第五部分：移动端原生开发
+    - [ ] 7.前端其他知识速查
+        - [x] 🌟第一部分：Git && GitHub
+        - [x] 💫第二部分：包管理工具（npm）
+        - [ ] ✨第三部分：前端工程化工具（Webpack）
+        - [ ] ☀️第四部分：测试（Jest）
+        - [ ] ❄️第五部分：CSS预处理器
+        - [ ] 💥第六部分：跨平台开发（Electron）
 - [ ] 2.后端
     - [ ] 1.Node原生速查
     - [ ] 2.Node第三方库速查
