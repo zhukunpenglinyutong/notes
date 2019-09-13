@@ -7,8 +7,10 @@
     "doc": "docs"
   },
   "scripts": {
-    "serve": "vpe serve",
-    "build": "vpe build"
+    "serve": "npx vuepress dev build",
+    "build": "npx vuepress build build",
+    "serve:vpe": "vpe serve",
+    "build:vpe": "vpe build"
   },
   "dependencies": {
     "vuepress-es": "^1.3.0",

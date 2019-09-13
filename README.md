@@ -26,7 +26,6 @@
 此网站更佳的查阅体验，请访问 
 
 - [自己服务器托管的-Notes（最近更新：2019.9.13）](https://notes.itzkp.com)
-- [GitHub托管的-Notes（最近更新：2019.9.13）](https://zhukunpenglinyutong.github.io/)
 
 ---
 
@@ -80,31 +79,31 @@ npm run build
         - [x] [1.HTML基础](https://notes.itzkp.com/2.note/1.HTML/1.HTML%E5%9F%BA%E7%A1%80.html)
         - [ ] 2.HTML5
     - [ ] 2.CSS
-        - [ ] [1.CSS基础](https://zhukunpenglinyutong.github.io/2.note/2.CSS/1.CSS%E5%9F%BA%E7%A1%80.html)
+        - [ ] [1.CSS基础](https://notes.itzkp.com/2.note/2.CSS/1.CSS%E5%9F%BA%E7%A1%80.html)
         - [ ] 2.CSS3
-        - [x] [3.现代化CSS](https://zhukunpenglinyutong.github.io/2.note/2.CSS/3.%E7%8E%B0%E4%BB%A3%E5%8C%96CSS.html)
+        - [x] [3.现代化CSS](https://notes.itzkp.com/2.note/2.CSS/3.%E7%8E%B0%E4%BB%A3%E5%8C%96CSS.html)
     - [ ] 5.1MVVM框架Vue
-        - [x] [1.MVVM框架绪论](https://zhukunpenglinyutong.github.io/2.note/5.1MVVM%E6%A1%86%E6%9E%B6%EF%BC%88Vue%EF%BC%89/1.MVVM%E6%A1%86%E6%9E%B6%E7%BB%AA%E8%AE%BA.html)
-        - [x] [2.Vue基础](https://zhukunpenglinyutong.github.io/2.note/5.1MVVM%E6%A1%86%E6%9E%B6%EF%BC%88Vue%EF%BC%89/2.Vue%E5%9F%BA%E7%A1%80.html)
-        - [x] [3.Vue全家桶](https://zhukunpenglinyutong.github.io/2.note/5.1MVVM%E6%A1%86%E6%9E%B6%EF%BC%88Vue%EF%BC%89/3.Vue%E5%85%A8%E5%AE%B6%E6%A1%B6.html)
+        - [x] [1.MVVM框架绪论](https://notes.itzkp.com/2.note/5.1MVVM%E6%A1%86%E6%9E%B6%EF%BC%88Vue%EF%BC%89/1.MVVM%E6%A1%86%E6%9E%B6%E7%BB%AA%E8%AE%BA.html)
+        - [x] [2.Vue基础](https://notes.itzkp.com/2.note/5.1MVVM%E6%A1%86%E6%9E%B6%EF%BC%88Vue%EF%BC%89/2.Vue%E5%9F%BA%E7%A1%80.html)
+        - [x] [3.Vue全家桶](https://notes.itzkp.com/2.note/5.1MVVM%E6%A1%86%E6%9E%B6%EF%BC%88Vue%EF%BC%89/3.Vue%E5%85%A8%E5%AE%B6%E6%A1%B6.html)
         - [ ] 4.Vue源码解析以及实现
         - [ ] 5.VueRouter源码解析以及实现
         - [ ] 6.Vuex源码解析以及实现
         - [ ] 7.Axios源码解析以及实现
     - [ ] 3.JavaScript
-        - [x] 重构 [1.JavaScript根基](https://zhukunpenglinyutong.github.io/2.note/3.JavaScript/1.JavaScript%E6%A0%B9%E5%9F%BA.html)
-        - [x] 重构 [2.JavaScript深入](https://zhukunpenglinyutong.github.io/2.note/3.JavaScript/2.JavaScript深入.html)
+        - [x] 重构 [1.JavaScript根基](https://notes.itzkp.com/2.note/3.JavaScript/1.JavaScript%E6%A0%B9%E5%9F%BA.html)
+        - [x] 重构 [2.JavaScript深入](https://notes.itzkp.com/2.note/3.JavaScript/2.JavaScript深入.html)
         - [ ] 重构 3.JavaScript应用
-    - [x] 8.0网络/[1.前端网络基础](https://zhukunpenglinyutong.github.io/2.note/8.0%E7%BD%91%E7%BB%9C/1.%E5%89%8D%E7%AB%AF%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80.html)
-    - [ ] 重构 8.1前端工程化/[1.Webpack](https://zhukunpenglinyutong.github.io/2.note/8.1%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%8C%96/1.Webpack.html)
+    - [x] 8.0网络/[1.前端网络基础](https://notes.itzkp.com/2.note/8.0%E7%BD%91%E7%BB%9C/1.%E5%89%8D%E7%AB%AF%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80.html)
+    - [ ] 重构 8.1前端工程化/[1.Webpack](https://notes.itzkp.com/2.note/8.1%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%8C%96/1.Webpack.html)
         - [x] 🗂第一部分webpack初步探索
         - [x] 📕第二部分：loader
         - [x] 📗第三部分：plugins（插件）
         - [x] 📘第四部分：其他配置
         - [ ] 📙第五部分：webpack高级
         - [ ] ...
-     - [x] 重构 8.2前端安全/[2.前端基本防护](https://zhukunpenglinyutong.github.io/2.note/8.2%20%E5%89%8D%E7%AB%AF%E5%AE%89%E5%85%A8/2.%E5%89%8D%E7%AB%AF%E5%9F%BA%E6%9C%AC%E9%98%B2%E6%8A%A4.html)
-    - [ ] 重构 8.4前端代码质量/[2.前端测试框架Jest](https://zhukunpenglinyutong.github.io/2.note/8.4%E5%89%8D%E7%AB%AF%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/2.%E5%89%8D%E7%AB%AF%E6%B5%8B%E8%AF%95%E6%A1%86%E6%9E%B6Jest.html#%E2%9B%84%EF%B8%8F%E7%AC%AC%E4%B8%80%E9%83%A8%E5%88%86%EF%BC%9Ajest%E5%9F%BA%E7%A1%80)
+     - [x] 重构 8.2前端安全/[2.前端基本防护](https://notes.itzkp.com/2.note/8.2%20%E5%89%8D%E7%AB%AF%E5%AE%89%E5%85%A8/2.%E5%89%8D%E7%AB%AF%E5%9F%BA%E6%9C%AC%E9%98%B2%E6%8A%A4.html)
+    - [ ] 重构 8.4前端代码质量/[2.前端测试框架Jest](https://notes.itzkp.com/2.note/8.4%E5%89%8D%E7%AB%AF%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/2.%E5%89%8D%E7%AB%AF%E6%B5%8B%E8%AF%95%E6%A1%86%E6%9E%B6Jest.html#%E2%9B%84%EF%B8%8F%E7%AC%AC%E4%B8%80%E9%83%A8%E5%88%86%EF%BC%9Ajest%E5%9F%BA%E7%A1%80)
         - [x] ⛄️第一部分：Jest基础
         - [x] 💦第二部分：Jest中的日常使用
         - [ ] ...
@@ -132,7 +131,7 @@ npm run build
 
 我只知道接下来的一年的第一个阶段，我将会更着重发展 效率 + xxx 的探索，这个 xxx 是 移动端，还是Node，还是其他，要取决于下一份工作的内容（精力不够，只能选择一个）
 
-并且一年之内 将会逐步实践 我觉得有价值的一套简单的前端体系  [具体可见-前端架构](https://zhukunpenglinyutong.github.io/2.note/8.6%E5%89%8D%E7%AB%AF%E6%9E%B6%E6%9E%84/1.%E5%89%8D%E7%AB%AF%E6%9E%B6%E6%9E%84.html)
+并且一年之内 将会逐步实践 我觉得有价值的一套简单的前端体系  [具体可见-前端架构](https://notes.itzkp.com/2.note/8.6%E5%89%8D%E7%AB%AF%E6%9E%B6%E6%9E%84/1.%E5%89%8D%E7%AB%AF%E6%9E%B6%E6%9E%84.html)
 
 目前已实践：第一部分：Cli全栈化 下面的第一个模块 [vuepress-es](https://www.npmjs.com/package/vuepress-es)，是单纯的提高效率的工具链 没有 效率 + xxx，我也期待下一家公司的技术栈，效率 + 下一家公司的技术栈，只需要一行命令就能做很多事情  想想就激动。
 
