@@ -25,8 +25,8 @@
 
 此网站更佳的查阅体验，请访问 
 
-- [自己服务器托管的-Notes（最近更新：2019.9.10）](https://notes.itzkp.com)
-- [GitHub托管的-Notes（最近更新：2019.9.12 下午）](https://zhukunpenglinyutong.github.io/)
+- [自己服务器托管的-Notes（最近更新：2019.9.13）](https://notes.itzkp.com)
+- [GitHub托管的-Notes（最近更新：2019.9.13）](https://zhukunpenglinyutong.github.io/)
 
 ---
 
@@ -71,16 +71,13 @@ npm run build
 
 - [ ] 前端体系（note）
     - [ ] 🔥6.移动端
-        - [x] [0.移动端开发绪论](https://zhukunpenglinyutong.github.io/2.note/6.%E7%A7%BB%E5%8A%A8%E7%AB%AF/0.移动端开发绪论.html)
-            - [x] ⏱第一部分：移动端发展历史
-            - [x] 📡第二部分：移动端技术发展历史
-            - [x] 📱第三部分：手机硬件组成
+        - [x] [0.移动端开发绪论](https://notes.itzkp.com/2.note/6.%E7%A7%BB%E5%8A%A8%E7%AB%AF/0.移动端开发绪论.html)
         - [ ] 1.HTML5混生开发
-        - [x] [2.微信小程序](https://zhukunpenglinyutong.github.io/2.note/6.%E7%A7%BB%E5%8A%A8%E7%AB%AF/2.%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F.html)
+        - [x] [2.微信小程序](https://notes.itzkp.com/2.note/6.%E7%A7%BB%E5%8A%A8%E7%AB%AF/2.%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F.html)
         - [ ] 3.Flutter
         - [ ] 4.React-Native
     - [ ] 1.HTML
-        - [x] [1.HTML基础](https://zhukunpenglinyutong.github.io/2.note/1.HTML/1.HTML%E5%9F%BA%E7%A1%80.html)
+        - [x] [1.HTML基础](https://notes.itzkp.com/2.note/1.HTML/1.HTML%E5%9F%BA%E7%A1%80.html)
         - [ ] 2.HTML5
     - [ ] 2.CSS
         - [ ] [1.CSS基础](https://zhukunpenglinyutong.github.io/2.note/2.CSS/1.CSS%E5%9F%BA%E7%A1%80.html)
