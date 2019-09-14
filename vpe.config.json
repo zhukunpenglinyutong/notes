@@ -14,8 +14,8 @@
     // 使用的 图片缩放 插件（目前只支持这一个） "plugin": ["vuepress-plugin-zooming"],
     "plugin": ["vuepress-plugin-zooming"],
 
-    // 是否重新生成 config.js （因为有时候，如果你更改了 config.js 内容之后，再 npx vpe serve 会发现，config 重新生成了）
-    // 如果选false的话，就会直将 文件夹 && ZHOME.md && ZRECORED.md 复制到 build文件夹下，而不会重新生成 .vuepress/config.js
+    // true：每次 serve build 都会重新 覆盖 build/.vuepress 里面的内容，方便第一次生成配置
+    // false：不会覆盖 build/.vuepress 内容，方便后期的拓展
     "isCreateConfigJs": false,
 
     // 文件夹展示顺序（有需求就进行设置，不仅可以设置需要显示的文件夹，还能设置展示的顺序，这里可能有点绕）

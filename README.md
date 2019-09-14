@@ -40,12 +40,6 @@ git clone https://github.com/zhukunpenglinyutong/notes.git
 # 安装依赖
 npm install
 
-# 使用vpe启动预览（会覆盖build文件夹内容）
-npm run serve:vpe
-
-# 使用vpe进行打包（会覆盖build文件夹内容）
-npm run serve:vpe
-
 # 预览，VuePress会启动一个预览的网址
 npm run serve
 
