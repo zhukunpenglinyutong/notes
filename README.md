@@ -65,44 +65,32 @@ npm run build
 > 2019.9.11日起 主要归并：H5 和 移动端 部分
 
 - [ ] 前端体系（note）
+    - [ ] 1.HTML
+        - [x] [1.HTML基础](https://notes.itzkp.com/2.note/1.HTML/1.HTML%E5%9F%BA%E7%A1%80.html)
+        - [ ] [2.HTML5](https://notes.itzkp.com/2.note/1.HTML/2.HTML5.html)
+            - [ ] 🥗第一部分：标签
+            - [ ] 🍥第二部分：属性
+            - [ ] 🍱第三部分：API
+            - [x] 🍛第四部分：canvas（画布）
+            - [ ] 🍚第五部分：存储
+            - [ ] 🍢第六部分：交流
+            - [ ] 🍧第七部分：工作线程
+            - [ ] 🍩第八部分：位置感知
     - [ ] 🔥6.移动端
         - [x] [0.移动端开发绪论](https://notes.itzkp.com/2.note/6.%E7%A7%BB%E5%8A%A8%E7%AB%AF/0.移动端开发绪论.html)
         - [ ] 1.HTML5混生开发
+            - [ ] 🍖第一部分：混生开发绪论
+            - [ ] 🍳第二部分：屏幕适配
+            - [ ] 🍔第三部分：优化体验
+            - [ ] 🌭第四部分：WebView
+            - [ ] 🍟第五部分：H5跟原生交互
+            - [ ] 🌮第六部分：H5混生开发框架
+            - [ ] 🍜第七部分：混合开发实践
         - [x] [2.微信小程序](https://notes.itzkp.com/2.note/6.%E7%A7%BB%E5%8A%A8%E7%AB%AF/2.%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F.html)
         - [ ] 3.Flutter
         - [ ] 4.React-Native
-    - [ ] 1.HTML
-        - [x] [1.HTML基础](https://notes.itzkp.com/2.note/1.HTML/1.HTML%E5%9F%BA%E7%A1%80.html)
-        - [ ] 2.HTML5
-    - [ ] 2.CSS
-        - [ ] [1.CSS基础](https://notes.itzkp.com/2.note/2.CSS/1.CSS%E5%9F%BA%E7%A1%80.html)
-        - [ ] 2.CSS3
-        - [x] [3.现代化CSS](https://notes.itzkp.com/2.note/2.CSS/3.%E7%8E%B0%E4%BB%A3%E5%8C%96CSS.html)
-    - [ ] 5.1MVVM框架Vue
-        - [x] [1.MVVM框架绪论](https://notes.itzkp.com/2.note/5.1MVVM%E6%A1%86%E6%9E%B6%EF%BC%88Vue%EF%BC%89/1.MVVM%E6%A1%86%E6%9E%B6%E7%BB%AA%E8%AE%BA.html)
-        - [x] [2.Vue基础](https://notes.itzkp.com/2.note/5.1MVVM%E6%A1%86%E6%9E%B6%EF%BC%88Vue%EF%BC%89/2.Vue%E5%9F%BA%E7%A1%80.html)
-        - [x] [3.Vue全家桶](https://notes.itzkp.com/2.note/5.1MVVM%E6%A1%86%E6%9E%B6%EF%BC%88Vue%EF%BC%89/3.Vue%E5%85%A8%E5%AE%B6%E6%A1%B6.html)
-        - [ ] 4.Vue源码解析以及实现
-        - [ ] 5.VueRouter源码解析以及实现
-        - [ ] 6.Vuex源码解析以及实现
-        - [ ] 7.Axios源码解析以及实现
-    - [ ] 3.JavaScript
-        - [x] 重构 [1.JavaScript根基](https://notes.itzkp.com/2.note/3.JavaScript/1.JavaScript%E6%A0%B9%E5%9F%BA.html)
-        - [x] 重构 [2.JavaScript深入](https://notes.itzkp.com/2.note/3.JavaScript/2.JavaScript深入.html)
-        - [ ] 重构 3.JavaScript应用
-    - [x] 8.0网络/[1.前端网络基础](https://notes.itzkp.com/2.note/8.0%E7%BD%91%E7%BB%9C/1.%E5%89%8D%E7%AB%AF%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80.html)
-    - [ ] 重构 8.1前端工程化/[1.Webpack](https://notes.itzkp.com/2.note/8.1%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%8C%96/1.Webpack.html)
-        - [x] 🗂第一部分webpack初步探索
-        - [x] 📕第二部分：loader
-        - [x] 📗第三部分：plugins（插件）
-        - [x] 📘第四部分：其他配置
-        - [ ] 📙第五部分：webpack高级
-        - [ ] ...
-     - [x] 重构 8.2前端安全/[2.前端基本防护](https://notes.itzkp.com/2.note/8.2%20%E5%89%8D%E7%AB%AF%E5%AE%89%E5%85%A8/2.%E5%89%8D%E7%AB%AF%E5%9F%BA%E6%9C%AC%E9%98%B2%E6%8A%A4.html)
-    - [ ] 重构 8.4前端代码质量/[2.前端测试框架Jest](https://notes.itzkp.com/2.note/8.4%E5%89%8D%E7%AB%AF%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/2.%E5%89%8D%E7%AB%AF%E6%B5%8B%E8%AF%95%E6%A1%86%E6%9E%B6Jest.html#%E2%9B%84%EF%B8%8F%E7%AC%AC%E4%B8%80%E9%83%A8%E5%88%86%EF%BC%9Ajest%E5%9F%BA%E7%A1%80)
-        - [x] ⛄️第一部分：Jest基础
-        - [x] 💦第二部分：Jest中的日常使用
-        - [ ] ...
+        - [ ] 5.移动端原生开发
+
 
 [更详细进度，请查看](https://github.com/zhukunpenglinyutong/notes/blob/master/Plan.md)
 
