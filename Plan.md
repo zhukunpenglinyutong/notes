@@ -198,25 +198,25 @@
 
 - [ ] 1.前端（体系大致调整完成）
     - [x] [1.HTML和HTML5速查](https://zhukunpenglinyutong.github.io/1.quickcheck/1.%E5%89%8D%E7%AB%AF/1.HTML%E5%92%8CHTML5.html)
-        - [x] 🌵第一部分：常用的HTML标签，和常见的概念和用法
-        - [x] 🎄第二部分：Canvas
-        - [x] 🌲第三部分：websocket
-        - [x] 🌳第四部分：本地存储
-        - [ ] 🌴第五部分：地理定位
-        - [x] 🌱第六部分：HTML5视频标签（video）&& 音频标签（audio）
-        - [ ] 🌿第七部分：Web工作线程
-        - [x] 🍃第八部分：其他内容补充
+        - [x] 🍲第一部分：常用的HTML标签，和常见的概念和用法
+        - [x] 🥓第二部分：Canvas
+        - [x] 🥒第三部分：websocket
+        - [x] 🌶第四部分：本地存储
+        - [ ] 🍞第五部分：地理定位
+        - [x] 🍯第六部分：HTML5视频标签（video）&& 音频标签（audio）
+        - [ ] 🍖第七部分：Web工作线程
+        - [x] 🍳第八部分：其他内容补充
     - [ ] 2.CSS和CSS3速查
         - [x] 🕊第一部分：常用布局
         - [x] 🐑第二部分：常用样式
     - [x] [3.JS方法速查](https://zhukunpenglinyutong.github.io/1.quickcheck/1.%E5%89%8D%E7%AB%AF/2.JS%E6%96%B9%E6%B3%95%E9%80%9F%E6%9F%A5.html)
-        - [x] 🌲数组
-        - [x] 🕰时间
-        - [x] 👫对象
-        - [x] 🌴DOM
-        - [x] 🌱BOM
-        - [x] 💍处理JS原生具有的一些问题
-        - [x] 🙏其他
+        - [x] 🍥第一部分：数组
+        - [x] 🍡第二部分：对象
+        - [x] 🍧第三部分：DOM
+        - [x] 🍣第四部分：BOM
+        - [x] 🍬第五部分：时间
+        - [x] 🍭第六部分：处理JS原生具有的一些问题
+        - [x] 🍹第七部分：其他
     - [ ] 4.jQuery及其周边库速查
         - [ ] 🐣第一部分：jQuery
         - [ ] 🦁第二部分：jQuery系列库（Bootstrap）
