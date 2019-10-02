@@ -117,6 +117,7 @@ module.exports = {
                         "2.note/5.1MVVM框架（Vue）/5.VueRouter源码解析以及实现.md",
                         "2.note/5.1MVVM框架（Vue）/6.Vuex源码解析以及实现.md",
                         "2.note/5.1MVVM框架（Vue）/7.Axios源码解析以及实现.md",
+                        "2.note/5.1MVVM框架（Vue）/8.0 Vue SSR.md",
                         "2.note/5.1MVVM框架（Vue）/8.1项目 开发Ant Design Pro Vue.md"
                     ]
                 },
