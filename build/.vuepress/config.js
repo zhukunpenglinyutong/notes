@@ -82,8 +82,8 @@ module.exports = {
                     "children": [
                         "2.note/2.CSS/1.CSS基础.md",
                         "2.note/2.CSS/2.CSS3.md",
-                        "2.note/2.CSS/3.现代化CSS.md",
-                        "2.note/2.CSS/4.CSS应用.md"
+                        "2.note/2.CSS/3.预处理器和后处理器.md",
+                        "2.note/2.CSS/4.现代化CSS.md"
                     ]
                 },
                 {
