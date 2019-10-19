@@ -245,6 +245,13 @@ module.exports = {
                     "children": [
                         "3.other/4.游戏/1.Switch入手.md"
                     ]
+                },
+                {
+                    "title": "5.反思&规划",
+                    "children": [
+                        "3.other/5.反思&规划/1.9.18-10.18 反思.md",
+                        "3.other/5.反思&规划/2.10.18-1.18 季度OKR规划.md"
+                    ]
                 }
             ]
         }
