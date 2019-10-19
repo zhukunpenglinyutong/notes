@@ -136,7 +136,8 @@ module.exports = {
                         "2.note/6.移动端/2.微信小程序.md",
                         "2.note/6.移动端/3.Flutter.md",
                         "2.note/6.移动端/4.React-Native.md",
-                        "2.note/6.移动端/5.移动端原生开发.md"
+                        "2.note/6.移动端/5.移动端原生开发.md",
+                        "2.note/6.移动端/6.Weex.md"
                     ]
                 },
                 {
