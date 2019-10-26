@@ -137,7 +137,8 @@ module.exports = {
                         "2.note/6.移动端/3.Flutter.md",
                         "2.note/6.移动端/4.React-Native.md",
                         "2.note/6.移动端/5.移动端原生开发.md",
-                        "2.note/6.移动端/6.Weex.md"
+                        "2.note/6.移动端/6.Weex.md",
+                        "2.note/6.移动端/7.uni-app.md"
                     ]
                 },
                 {
@@ -186,7 +187,8 @@ module.exports = {
                         "2.note/8.4前端代码质量/2.ESLint.md",
                         "2.note/8.4前端代码质量/3.前端测试框架Jest.md",
                         "2.note/8.4前端代码质量/4.自动化测试.md",
-                        "2.note/8.4前端代码质量/5.项目质量监测.md"
+                        "2.note/8.4前端代码质量/5.项目质量监测.md",
+                        "2.note/8.4前端代码质量/6.如何写一个不错的代码.md"
                     ]
                 },
                 {
