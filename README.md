@@ -1,4 +1,4 @@
-# 知识如果不记录，就会流失90%
+# 知识如果不整理，就会流失90%
 
 <p align="center">
     <a href="javascript:;"><img src="https://img.shields.io/github/license/zhukunpenglinyutong/notes.svg" alt="LICENSE"></a>
@@ -62,34 +62,7 @@ npm run build
 
 ### 🏆近期计划
 
-> 2019.9.11日起 主要归并：H5 和 移动端 部分
-
-- [ ] 前端体系（note）
-    - [ ] 1.HTML
-        - [x] [1.HTML基础](https://notes.itzkp.com/2.note/1.HTML/1.HTML%E5%9F%BA%E7%A1%80.html)
-        - [ ] [2.HTML5](https://notes.itzkp.com/2.note/1.HTML/2.HTML5.html)
-            - [ ] 🥗第一部分：标签
-            - [ ] 🍥第二部分：属性
-            - [ ] 🍱第三部分：API
-            - [x] 🍛第四部分：canvas（画布）
-            - [ ] 🍚第五部分：存储
-            - [ ] 🍢第六部分：交流
-            - [ ] 🍧第七部分：工作线程
-            - [ ] 🍩第八部分：位置感知
-    - [ ] 🔥6.移动端
-        - [x] [0.移动端开发绪论](https://notes.itzkp.com/2.note/6.%E7%A7%BB%E5%8A%A8%E7%AB%AF/0.移动端开发绪论.html)
-        - [ ] 1.HTML5混生开发
-            - [ ] 🍖第一部分：混生开发绪论
-            - [ ] 🍳第二部分：屏幕适配
-            - [ ] 🍔第三部分：优化体验
-            - [ ] 🌭第四部分：WebView
-            - [ ] 🍟第五部分：H5跟原生交互
-            - [ ] 🌮第六部分：H5混生开发框架
-            - [ ] 🍜第七部分：混合开发实践
-        - [x] [2.微信小程序](https://notes.itzkp.com/2.note/6.%E7%A7%BB%E5%8A%A8%E7%AB%AF/2.%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F.html)
-        - [ ] 3.Flutter
-        - [ ] 4.React-Native
-        - [ ] 5.移动端原生开发
+> 近期工作繁忙，内容有待完善
 
 
 [更详细进度，请查看](https://github.com/zhukunpenglinyutong/notes/blob/master/Plan.md)
@@ -109,7 +82,7 @@ npm run build
 
 ## 👓 内推与招聘
 
-> 最近我好像有工作了😹，在没做出成绩之前是不考虑换工作的
+> 最近在找工作的小伙伴可以找我内推，绝对让你满意 (招聘内容地址（掘金沸点）)[https://juejin.im/pin/5dce3ed06fb9a027c577ac04]
 
 ---
 
