@@ -148,7 +148,8 @@ module.exports = {
                         "2.note/7.Node/2.原生Node.md",
                         "2.note/7.Node/3.Express框架.md",
                         "2.note/7.Node/4.Koa2框架.md",
-                        "2.note/7.Node/5.Egg框架.md"
+                        "2.note/7.Node/5.Egg框架.md",
+                        "2.note/7.Node/6.Node技术应用.md"
                     ]
                 },
                 {
@@ -202,7 +203,8 @@ module.exports = {
                 {
                     "title": "8.6前端架构",
                     "children": [
-                        "2.note/8.6前端架构/1.前端架构.md"
+                        "2.note/8.6前端架构/1.前端架构.md",
+                        "2.note/8.6前端架构/2.前端国际化方案（Vue项目）.md"
                     ]
                 },
                 {
@@ -226,7 +228,8 @@ module.exports = {
                 {
                     "title": "1.读书",
                     "children": [
-                        "3.other/1.读书/1.《三体》.md"
+                        "3.other/1.读书/1.《三体》.md",
+                        "3.other/1.读书/2.财务三表.md"
                     ]
                 },
                 {
