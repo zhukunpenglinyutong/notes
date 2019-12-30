@@ -2,7 +2,7 @@
     // 左上角的标题（也是首页图像下面的一级标题）
     "title": "Notes",
     // 首页头像下面标题的解释
-    "description": "知识速查（了不起的个人工具库）",
+    "description": "知识速查（了不起的个人知识库）",
     // 右上角 跳转GitHub的地址（写一个GitHub项目地址）
     "repo": "https://github.com/zhukunpenglinyutong/notes",
 
