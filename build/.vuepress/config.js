@@ -132,7 +132,7 @@ module.exports = {
                     "title": "6.移动端",
                     "children": [
                         "2.note/6.移动端/0.移动端开发绪论.md",
-                        "2.note/6.移动端/1.HTML5混生开发.md",
+                        "2.note/6.移动端/1.移动端H5页面适配.md",
                         "2.note/6.移动端/2.微信小程序.md",
                         "2.note/6.移动端/3.Flutter.md",
                         "2.note/6.移动端/4.React-Native.md",
@@ -210,7 +210,8 @@ module.exports = {
                 {
                     "title": "9.项目",
                     "children": [
-                        "2.note/9.项目/1.Node项目仿知乎API.md"
+                        "2.note/9.项目/1.Node项目仿知乎API.md",
+                        "2.note/9.项目/2.行为封装软件.md"
                     ]
                 }
             ],
