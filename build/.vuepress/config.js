@@ -138,7 +138,7 @@ module.exports = {
                         "2.note/6.移动端/4.React-Native.md",
                         "2.note/6.移动端/5.移动端原生开发.md",
                         "2.note/6.移动端/6.Weex.md",
-                        "2.note/6.移动端/7.uni-app.md"
+                        "2.note/6.移动端/7.移动端H5手机内调试.md"
                     ]
                 },
                 {
