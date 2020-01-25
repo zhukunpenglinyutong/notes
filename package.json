@@ -7,8 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "serve": "vpe serve",
-    "build": "vpe build"
+    "build": "cd doc && vuepress build",
+    "start": "cd doc && vuepress dev"
   },
   "dependencies": {
     "vuepress-es": "^1.3.2",

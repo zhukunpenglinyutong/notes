@@ -11,7 +11,7 @@
 
 ---
 
-**注意：本项目vuepress的配置工作， 已经转为 [vuepress-es](https://www.npmjs.com/package/vuepress-es) npm包 自动生成，已经删除 app.js Node 处理函数**
+**注意：本项目vuepress的配置工作， 暂时舍弃 [vuepress-es](https://www.npmjs.com/package/vuepress-es) npm包 自动生成，转为 VuePressEs函数生成，以后会封装成npm包的**
 
 ---
 
@@ -39,14 +39,14 @@ git clone https://github.com/zhukunpenglinyutong/notes.git
 npm install
 
 # 预览，VuePress会启动一个预览的网址
-npm run serve
+npm run start
 
-# 打包，打包后资源在 build/.vuepress/dist下
+# 打包，打包后资源在 doc/.vuepress/dist下
 npm run build
 
 ```
 
-[构建说明，为什么首页的几个文件夹，就能生成网站？而不用配置VuePress？ 因为我封装了一个NPM工具...vuepress-es](https://www.npmjs.com/package/vuepress-es)
+**构建说明，为什么首页的几个文件夹，就能生成网站？而不用配置VuePress？详细请见 doc/.vuepress/vueperssEs文件夹**
 
 ---
 
@@ -62,8 +62,7 @@ npm run build
 
 > 本周主要整理Node相关内容（2019.11.17 - 2019.11.23）
 
-
-[更详细进度，请查看](https://github.com/zhukunpenglinyutong/notes/blob/master/Plan.md)
+- 年假计划【制定中】
 
 ---
 
