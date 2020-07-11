@@ -15,7 +15,7 @@ features:
 - title: 保证网站高度可用
   details: 自动化工具实现CI/CD，快速更新此网站，不断成长，不断完善，给用户越来越优质的体验
 - title: 项目思想核心
-  details: 学过的东西，时间花一遍就行，剩下的交给此项目，不担心遗忘，举一反三，触类旁通，这是项目达到的最终效果，此项目可能达不到最终效果，但是作为另一个可以达到此效果项目（itztool（开发者 + itztool = 超人））的前置知识库还是可以的
+  details: 知识太多，大脑有限，能在知道的时候记录下来，留给以后遗忘的自己。
 # 脚头
 footer: MIT Licensed | © Copyright 2019 朱昆鹏 - All Rights Reserved
 ---
