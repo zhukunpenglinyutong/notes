@@ -3,3 +3,4 @@ docs
 test
 build/.vuepress/dist
 .DS_Store
+doc/.vuepress
