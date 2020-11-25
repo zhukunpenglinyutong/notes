@@ -4,15 +4,15 @@ let VuepressEs = require('./vuepressEs/index.js')
 let vuepressEs = new VuepressEs({
     // 1.导航栏文案（因为导航栏文件夹不能是中文的）
     navDataConfig: [
-        ['1.quickcheck', '速查'],
-        ['2.note', '前端体系'],
+        ['1.note', '前端体系'],
+        ['2.quickcheck', '速查'],
         ['3.other', '其他']
     ]
 })
 
 module.exports = {
     "title": "Notes",
-    "description": "知识速查（了不起的个人工具库）",
+    "description": "不断完善的前端知识体系",
     "head": [
         [
             "link",
