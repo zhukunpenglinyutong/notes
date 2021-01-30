@@ -1,6 +1,5 @@
 node_modules
-docs
 test
-build/.vuepress/dist
 .DS_Store
-doc/.vuepress 
+docs/.vuepress/dist
+.temp

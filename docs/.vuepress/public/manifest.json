@@ -1,0 +1,16 @@
+{
+    "name": "Angor",
+    "short_name": "Angor",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#2196f3",
+    "description": "Angor 的 heiheihei",
+    "theme_color": "blue",
+    "icons": [
+      {
+        "src": "./favicon.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      }
+    ]
+}
