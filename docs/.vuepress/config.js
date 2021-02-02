@@ -14,14 +14,15 @@ module.exports = {
     search: true,
     searchMaxSuggestions: 6,
     nav: [
-      { text: '📃 文章', link: '/blog/' },
-      { text: '🚥 导航', link: '/guide/' },
-      { text: '🔗 友链', link: '/links/' },
-      // { text: '📰 专栏', link: '/zhuanlan/' },
+      { text: '前端体系', link: '/blog/' },
+      // { text: '经济学体系', link: '/jjx-blog/' },
+      // { text: '专栏', link: '/zhuanlan/' },
+      { text: '友链', link: '/links/' },
       // { text: '🤪 动态', link: '/zone/' },
       {
-        text: '🔨 其他',
+        text: '其他',
         items: [
+          { text: '🚥导航', link: '/guide/' },
           { text: '📰 个人介绍', link: '/my/' }
         ]
       }

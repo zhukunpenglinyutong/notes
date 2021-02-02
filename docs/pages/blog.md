@@ -87,6 +87,20 @@ export default {
         }
       }
     }
+
+    // 前端体系标签顺序化（之前标签顺序不对）
+    let newTags = []
+    let tagObj = {}
+    this.tags.forEach(tagItem => {
+        let tagArr = tagItem.split('.');
+        tagArr[1]
+          ? tagObj[+tagArr[0]] = tagItem
+          : tagObj[-1] = tagItem
+    })
+    this.tags = Object.values(tagObj)
+    let tem = this.tags.splice(this.tags.length - 1, 1)[0]
+    this.tags.unshift(tem)
+
     this.num = this.posts.length
   },
 
