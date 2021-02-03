@@ -260,7 +260,7 @@ function flatten(items, res) {
 
 .my-main-right {
   margin-left: 1rem;
-  width: 250px;
+  width: 300px;
 
   div + div {
     margin-top: 0.6rem;
@@ -275,6 +275,7 @@ function flatten(items, res) {
     top: 70px;
     height: 85vh;
     overflow-y: scroll;
+    overflow-x: hidden;
 
     &__lv2, &__lv3 {
       display: block;
