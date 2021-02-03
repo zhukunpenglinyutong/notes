@@ -40,7 +40,7 @@ export default {
           "label": "计算机",
           "name": "one",
           "classes": [{
-            "title": "建立本站的网站",
+            "title": "建本站",
             "links": [{
               "name": "Vuepress",
               "description": "静态网站生成器",
@@ -54,7 +54,7 @@ export default {
               "description": "无后端评论系统",
               "link": "https://valine.js.org/"
             }, {
-              "name": "https://www.leancloud.cn/",
+              "name": "serverleess",
               "description": "serverleess 云服务",
               "link": "https://leancloud.cn/dashboard/applist.html#/apps"
             }]
@@ -64,10 +64,6 @@ export default {
               "name": "Google",
               "description": "最常用的网站",
               "link": "https://www.google.com"
-            }, {
-              "name": "GitHub",
-              "description": "全球最大XX网站",
-              "link": "https://www.github.com"
             }, {
               "name": "InfoQ",
               "description": "技术论坛",

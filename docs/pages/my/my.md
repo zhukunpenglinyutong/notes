@@ -9,7 +9,10 @@ categories: noRight
   <div>
     <main class="resume">
       <section id="introduction">
-        <article class="resume-self" id="self"><img class="logo" src="./img/ming.jpg">
+        <article class="resume-self" id="self">
+          <viewer images="./img/ming.jpg">
+            <img style="cursor:pointer;" class="logo" src="./img/ming.jpg">
+          </viewer>
           <div class="title">朱昆鹏 Kunpeng Zhu（1998年）</div>
           <div class="description">
             <blockquote>🌈终身学习，学习终身</blockquote>
@@ -45,7 +48,8 @@ categories: noRight
           <div class="time">2016 - 2019</div>
           <div class="description">
             <p>分数只过了二本线，最终选择报了这个专科学校（河北省内专科计算机第一名，超过我能报的二本院校的计算机水平，之前认为实力更重要，当然后来才发现学历是敲门砖 😢）</p>
-            <p>在校期间的表现：担任班长，软件社团社长，获得河北省大数据比赛三等奖，省级优秀毕业生，河北省优秀志愿者，互联网+创新创业大赛河北省二等奖</p>
+            <p>学校在2020年10月升为本科，可见学校综合确实不错，符合当时的决定：放弃二本，选择学习技术，当然我后期也会为这个选择买单：1.报名非统本科，2.本科结束后，报名国外全日硕士（国家留服认证）补全学历短板</p>
+            <p>在校期间的表现：担任班长，软件社团社长，校级学生会干部，获得河北省大数据比赛三等奖，省级优秀毕业生，河北省优秀志愿者，互联网+创新创业大赛河北省二等奖，三级（高级）职业资格证书</p>
           </div>
         </article>
       </section>
