@@ -65,6 +65,10 @@
 </template>
 
 <script>
+
+</script>
+
+<script>
 import Home from '@theme/components/Home.vue'
 import Navbar from '@theme/components/Navbar.vue'
 import Page from '@theme/components/Page.vue'
@@ -147,6 +151,15 @@ export default {
     this.$router.afterEach(() => {
       this.isSidebarOpen = false
     })
+
+    var _hmt = _hmt || [];
+    (function() {
+      console.log('百度统计启动')
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?483baf44489ad1066740f1e074dc4c8c";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
   },
 
   
