@@ -14,16 +14,17 @@ module.exports = {
     search: true,
     searchMaxSuggestions: 6,
     nav: [
-      { text: '前端体系', link: '/blog/' },
-      { text: '开源项目', link: '/github-open/' },
-      { text: '年度计划', link: '/plan-list/' },
+      { text: '🎓 前端体系', link: '/blog/' },
+      { text: '📚 读书', link: '/book/' },
+      { text: '🌏 开源项目', link: '/github-open/' },
       {
-        text: '其他',
+        text: '🏁 其他',
         items: [
-          { text: '友链', link: '/links/' },
-          { text: '导航', link: '/guide/' },
-          { text: '网站介绍', link: '/website/' },
-          { text: '个人介绍', link: '/my/' }
+          { text: '🌤 年度计划', link: '/plan-list/' },
+          { text: '✨ 友链', link: '/links/' },
+          { text: '🚥 导航', link: '/guide/' },
+          { text: '🐋 网站介绍', link: '/website/' },
+          { text: '🐉 个人介绍', link: '/my/' }
         ]
       }
     ]
