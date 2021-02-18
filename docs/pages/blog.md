@@ -107,7 +107,22 @@ export default {
   computed: {
     topPublishPosts() {
       this.showBtn =  this.page * this.step < this.num
-      return this.getTopKPosts(this.page * this.step)
+      console.log('this.getTopKPosts(this.page * this.step)', this.getTopKPosts(this.page * this.step))
+
+      let topPublisData = this.getTopKPosts(this.page * this.step)
+
+      // 排列顺序（有bug，相同数字前缀的会相互覆盖）
+      let newTags = []
+      let tagObj = {}
+      topPublisData.forEach(tagItem => {
+          let tagArr = tagItem.filename.split('.');
+          tagArr[1]
+            ? tagObj[+tagArr[0]] = tagItem
+            : tagObj[0] = tagItem
+      })
+      topPublisData = Object.values(tagObj)
+
+      return topPublisData
     }
   },
 

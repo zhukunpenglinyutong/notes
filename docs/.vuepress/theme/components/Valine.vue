@@ -28,6 +28,9 @@ export default {
   },
   methods: {
     initValine () {
+      // 容错
+      if (document.getElementsByClassName('leancloud-visitors')[0] === undefined) return;
+
       let path = location.origin + location.pathname
       document.getElementsByClassName('leancloud-visitors')[0].id = path
       this.valine.init({

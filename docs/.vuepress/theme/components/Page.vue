@@ -18,10 +18,10 @@
         </div>
         <Content class="theme-default-content" />
         <footer class="page-edit" v-if="showFooter">
-          <div class="edit-link" v-if="editLink">
+          <!-- <div class="edit-link" v-if="editLink">
             <a :href="editLink" target="_blank" rel="noopener noreferrer">{{ editLinkText }}</a>
             <OutboundLink />
-          </div>
+          </div> -->
 
           <div class="last-updated" v-if="lastUpdated">
             <span class="prefix">{{ lastUpdatedText }}:</span>
