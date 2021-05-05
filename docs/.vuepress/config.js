@@ -15,8 +15,9 @@ module.exports = {
     searchMaxSuggestions: 6,
     nav: [
       { text: '🎓 前端体系', link: '/blog/' },
-      { text: '📚 读书', link: '/book/' },
+      { text: '🚄 前端速查', link: '/quickcheck/' },
       { text: '🌏 开源项目', link: '/github-open/' },
+      { text: '📚 读书笔记', link: '/book/' },
       {
         text: '🏁 其他',
         items: [

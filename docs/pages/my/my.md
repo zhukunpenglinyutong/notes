@@ -48,15 +48,19 @@ categories: noRight
           <h1 class="title">教育经历</h1>
           <div class="sub">Education</div>
           <!-- <article class="resume-education" id="master"><img class="logo" src="./img/iit.png">
-          <div class="title">伊利诺伊理工大学 Illinois Institute of Technology（申请中）</div>
-          <div class="sub">计算机系计算机科学硕士 Computer Science (M.A.S.)</div>
-          <div class="time">2023 - 2024</div>
-          <div class="description">
-              <p>美国伊利诺伊理工大学 2020 QS全美综合排第71名，预计拿到本科毕业证之后，申请此学校 M.A.S. 硕士</p>
-          </div>
+            <div class="title">
+                <a target="_blank" href="https://baike.baidu.com/item/%E4%BC%8A%E5%88%A9%E8%AF%BA%E4%BC%8A%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6/50725025?fr=aladdin">伊利诺伊理工大学 Illinois Institute of Technology</a>（申请中）
+            </div>
+            <div class="sub">计算机系计算机科学硕士 Computer Science (M.A.S.)</div>
+            <div class="time">2023 - 2024</div>
+            <div class="description">
+                <p>美国伊利诺伊理工大学 2020 QS全美综合排第71名，预计2022年拿到本科毕业证之后，申请此学校 M.A.S. 硕士</p>
+            </div>
           </article> -->
           <article class="resume-education" id="bachelor"><img class="logo" src="./img/rm.png">
-              <div class="title">中国人民大学（非统本科在读）</div>
+              <div class="title">
+                <a target="_blank" href="https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E5%A4%A7%E5%AD%A6">中国人民大学</a>（网络教育本科在读）
+              </div>
               <div class="sub">计算机科学与技术 | 工学学士学位</div>
               <div class="time">2019 - 2022</div>
               <div class="description">
@@ -69,7 +73,7 @@ categories: noRight
               <div class="time">2016 - 2019</div>
               <div class="description">
                   <p>分数只过了二本线，最终选择报了这个专科学校（河北省内专科计算机第一名，超过我能报的二本院校的计算机水平，之前认为实力更重要，当然后来才发现学历是敲门砖 😢）</p>
-                  <p>学校在2020年10月升为本科，可见学校综合确实不错，符合当时的决定：放弃二本，选择学习技术，当然我后期也会为这个选择买单：1.报名非统本科，2.本科结束后，报名国外全日硕士（国家留服认证）补全学历短板</p>
+                  <p>学校在2020年10月升为本科（<a target="_blank" href="https://baike.baidu.com/item/%E6%B2%B3%E5%8C%97%E5%B7%A5%E4%B8%9A%E8%81%8C%E4%B8%9A%E6%8A%80%E6%9C%AF%E5%A4%A7%E5%AD%A6/53968503?fromtitle=%E6%B2%B3%E5%8C%97%E5%B7%A5%E4%B8%9A%E8%81%8C%E4%B8%9A%E6%8A%80%E6%9C%AF%E5%AD%A6%E9%99%A2&fromid=465960&fr=aladdin">河北工业职业技术大学</a>），可见学校综合确实不错，符合当时的决定：放弃二本，选择学习技术，当然我后期也会为这个选择买单：1.报名非统本科，2.本科结束后，报名国外全日硕士（国家留服认证）补全学历短板</p>
                   <p>在校期间的表现：担任班长，软件社团社长，校级学生会干部，获得河北省大数据比赛三等奖，省级优秀毕业生，河北省优秀志愿者，互联网+创新创业大赛河北省二等奖，三级（高级）职业资格证书</p>
               </div>
           </article>
