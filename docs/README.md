@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: 朱昆鹏
-tagline: 对代码的追求是一种生活方式
+tagline: 凡是经历，皆为过往
 permalink: /
 actionText: ABOUT
 actionLink: https://github.com/zhukunpenglinyutong

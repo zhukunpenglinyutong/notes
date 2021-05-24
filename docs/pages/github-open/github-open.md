@@ -5,8 +5,6 @@ hideLastUpdated: True
 categories: noRight
 ---
 
-## VuePress暗黑主题切换插件
-
 ---
 
 ## 图片压缩客户端（Electron）

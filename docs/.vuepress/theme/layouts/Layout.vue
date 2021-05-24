@@ -4,6 +4,7 @@
     :class="pageClasses"
     @touchstart="onTouchStart"
     @touchend="onTouchEnd"
+    v-show="isShow"
   >
     <el-backtop></el-backtop>
 
@@ -81,7 +82,8 @@ export default {
   data () {
     return {
       isSidebarOpen: false,
-      scrollFlag: false
+      scrollFlag: false,
+      isShow: false // 用来点击三次视图切换插件
     }
   },
 
@@ -145,6 +147,14 @@ export default {
   },
 
   mounted () {
+
+    // 咱也不知道为啥正常点击不行，所以只能先这样，等到时候（可能就不改了）在看看
+    document.getElementsByClassName('toggle')[0].click()
+    document.getElementsByClassName('toggle')[0].click()
+    document.getElementsByClassName('toggle')[0].click()
+    this.isShow = true;
+
+
     // 监听滚动事件
     window.addEventListener('scroll', this.myScroll)
 

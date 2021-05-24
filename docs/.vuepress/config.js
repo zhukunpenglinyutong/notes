@@ -15,16 +15,17 @@ module.exports = {
     searchMaxSuggestions: 6,
     nav: [
       { text: '前端体系', link: '/blog/' },
-      { text: '前端速查', link: '/quickcheck/' },
       { text: '开源项目', link: '/github-open/' },
-      { text: '读书笔记', link: '/book/' },
+      { text: '友链', link: '/links/' },
+      { text: '网站更新', link: '/update/' },
       {
         text: '其他',
         items: [
-          { text: '年度计划', link: '/plan-list/' },
-          { text: '友链', link: '/links/' },
+          // { text: '网站介绍', link: '/website/' },
           { text: '导航', link: '/guide/' },
-          { text: '网站介绍', link: '/website/' },
+          { text: '前端速查', link: '/quickcheck/' },
+          // { text: '年度计划', link: '/plan-list/' },
+          { text: '读书笔记', link: '/book/' },
           { text: '个人介绍', link: '/my/' }
         ]
       }
