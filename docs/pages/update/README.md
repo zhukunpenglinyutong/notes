@@ -7,6 +7,13 @@ categories: noRight
 <template>
   <div class="edition-doc">
     <el-timeline>
+      <el-timeline-item icon="el-icon-more" timestamp="2021/5/25" placement="top">
+        <el-card>
+          <h4>日常修复</h4>
+          <p>bug: 修复友链移动端适配问题</p>
+          <p>doc: 新增两个友链（开心）</p>
+        </el-card>
+      </el-timeline-item>
       <el-timeline-item icon="el-icon-more" timestamp="2021/5/24" placement="top">
         <el-card>
           <h4>日常修复</h4>

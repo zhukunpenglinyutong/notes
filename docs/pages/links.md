@@ -9,18 +9,7 @@ categories: noRight
   <div>
     <h3>友链</h3>
     <div class="cardListContainer">
-      <div class="my-links">
-          <!-- <el-card class="link-card" shadow="hover" v-for="link in links">
-            <img class="link-card__avatar" :src="link.avatar" alt="头像未加载"/>
-            <h3 class="link-card__title">{{ link.title }}</h3>
-            <p>{{ link.description }}</p>
-            <a :href="link.site" target="_blank">
-              <el-button class="link-card__button" round>去看看 🚀
-            </el-button></a>
-          </el-card>
-          <el-card class="link-card" shadow="hover">
-            欢迎互加友链😎
-          </el-card> -->
+      <div class="card-list">
           <a
             v-for="(item, index) in links"
             :key="index" 
@@ -78,31 +67,33 @@ export default {
           "link": "http://notes.itzkp.com"
         },
         {
-          name: '虚位以待',
-          desc: '等你前来',
-          link: "http://notes.itzkp.com",
+          name: '记忆空间',
+          avatar: 'https://itzkp-1253302184.cos.ap-beijing.myqcloud.com/xd.png',
+          desc: '不积跬步无以至千里',
+          link: "https://l-sui.github.io/",
           bgColor: "#f1f0ed",
           textColor: "#2b73af",
         },
         {
-          name: '虚位以待',
-          desc: '等你前来',
-          link: "http://notes.itzkp.com"
-        },
-        {
-          name: '虚位以待',
-          desc: '等你前来',
-          link: "http://notes.itzkp.com",
-          bgColor: '#f25272',
-          textColor: '#fbc7d2'
-        },
-        {
-          name: '虚位以待',
-          desc: '等你前来',
-          link: "http://notes.itzkp.com",
-          bgColor: "#718971",
-          textColor: "#fff"
+          name: "Lingze's blog",
+          desc: '少侠, 别来无恙?',
+          link: "https://lingze.xyz/",
+          avatar: 'https://lingze.xyz//img/avatar2.jpg'
         }
+        // {
+        //   name: '虚位以待',
+        //   desc: '等你前来',
+        //   link: "http://notes.itzkp.com",
+        //   bgColor: '#f25272',
+        //   textColor: '#fbc7d2'
+        // },
+        // {
+        //   name: '虚位以待',
+        //   desc: '等你前来',
+        //   link: "http://notes.itzkp.com",
+        //   bgColor: "#718971",
+        //   textColor: "#fff"
+        // }
       ]
     }
   }
@@ -110,12 +101,13 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+
 // 普通卡片列表
 .cardListContainer
   margin .7rem 0
-  &>:not(.my-links)
+  &>:not(.card-list)
     display none
-  .my-links
+  .card-list
     margin -0.35rem
     display: flex;
     flex-wrap: wrap;
@@ -174,42 +166,137 @@ export default {
     .card-item.row-4
       width calc(100%/4 - .7rem)
 
-.my-links
-    display flex
-    flex-wrap wrap
-
-    .link-card
-      width 13rem
-      margin 1rem 1rem 1rem 0
-      display flex
-      justify-content center
-
-      h3
-        text-align center
-
-      p
-        text-align center
-
-      &__avatar
-        display block
-        width 6rem
-        height 6rem
-        margin 0 auto
-        border-radius:50%;
-        border 4px solid #f4f4f4
-
-      &__button
-        margin 0 auto
-        display: block
-
+// 图文卡片列表
+.cardImgListContainer
+  margin 1rem 0
+  &>:not(.card-list)
+    display none
+  .card-list
+    margin -0.5rem
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    .card-item
+      width calc(100%/3 - 1rem)
+      margin .5rem
+      background var(--mainBg)
+      border 1px solid rgba(0,0,0,0.08)
+      box-sizing: border-box
+      border-radius 3px
+      overflow hidden
+      color var(--textColor)
+      box-shadow 2px 2px 10px rgba(0,0,0,.04)
+      display flex 
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: stretch;
+      align-content: stretch;
+      transition: box-shadow .3s
       &:hover
-        transform:rotate(-1deg);
-        text-decoration none
+        box-shadow 1px 1px 20px rgba(0,0,0,.07)
+      .box-img
+        overflow hidden
+        position relative
+        background #000
+        img
+          display block
+          width 100%
+          height auto
+          transition: all .3s
+        &:hover
+          img
+            transform: scale(1.1, 1.1)
+            opacity .75
+      a
+        color var(--textColor)
+        transition: color .3s
+        &:hover
+          color $accentColor
+          text-decoration none
+      .box-info
+        padding: .8rem 1rem
+        p
+          margin 0
+        .desc
+          margin-top: .3rem
+          opacity .8
+          font-size: .9rem
+          line-height: 1.1rem
+      .box-footer
+        overflow hidden
+        padding: .8rem 1rem
+        border-top:  1px solid rgba(0,0,0,0.05)
+        img
+          width 1.8rem
+          height 1.8rem
+          border-radius 50%
+          float left
+        span 
+          line-height 1.8rem
+          float left
+          margin-left: .6rem
+          font-size: .8rem
+    .card-item.row-1
+      width calc(100% - 1rem)
+    .card-item.row-2
+      width calc(100%/2 - 1rem)
+    .card-item.row-3
+      width calc(100%/3 - 1rem)
+    .card-item.row-4
+      width calc(100%/4 - 1rem)
+
+@media (max-width: 500px)
+  .cardListContainer
+    .card-list
+      .card-item.row-1, .card-item.row-2, .card-item.row-3, .card-item.row-4
+        width calc(100% - .7rem)
+        img
+          margin-left 1.5rem
+  .cardImgListContainer
+    .card-list
+      .card-item.row-1, .card-item.row-2, .card-item.row-3, .card-item.row-4
+        width calc(100% - 1rem)
+
+.theme-mode-dark
+  .cardImgListContainer
+    .card-list
+      .card-item
+        border-color: var(--borderColor)
+        .box-footer
+           border-color: var(--borderColor)
+           
+// 卡片列表的响应
+@media (max-width: 900px) 
+  .cardListContainer
+    .card-list
+      .card-item.row-4
+        width calc(100%/3 - .7rem)
+  .cardImgListContainer
+    .card-list
+      .card-item.row-4
+        width calc(100%/3 - 1rem)
+
+@media (max-width: 720px) 
+  .cardListContainer
+    .card-list
+      .card-item.row-3, .card-item.row-4
+        width calc(100%/2 - .7rem)
+        img
+          margin-left 1.5rem
+  .cardImgListContainer
+    .card-list
+      .card-item.row-3, .card-item.row-4
+        width calc(100%/2 - 1rem)
         
-@media (max-width: $MQMobile)
-  .my-links
-    flex-direction column
-    .link-card
-      width: auto;
-      margin: 1rem 0;
+@media (max-width: 500px) 
+  .cardListContainer
+    .card-list
+      .card-item.row-1, .card-item.row-2, .card-item.row-3, .card-item.row-4
+        width calc(100% - .7rem)
+        img
+          margin-left 1.5rem
+  .cardImgListContainer
+    .card-list
+      .card-item.row-1, .card-item.row-2, .card-item.row-3, .card-item.row-4
+        width calc(100% - 1rem)
 </style>
