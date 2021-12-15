@@ -1,6 +1,6 @@
 {
   "name": "git-notes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "[![License](https://img.shields.io/github/license/zhukunpenglinyutong/notes.svg)](LICENSE) [![repo-size](https://img.shields.io/github/repo-size/zhukunpenglinyutong/notes.svg)](repo-size) [![CodeTriage](https://www.codetriage.com/zhukunpenglinyutong/notes/badges/users.svg)](CodeTriage) [![提交活动](https://img.shields.io/github/commit-activity/m/zhukunpenglinyutong/notes.svg)](提交活动) [![最后一次提交](https://img.shields.io/github/last-commit/zhukunpenglinyutong/notes.svg)](最后一次提交)",
   "main": "index.js",
   "directories": {
